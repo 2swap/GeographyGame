@@ -1,0 +1,3034 @@
+
+> boilerplate@0.0.1 start /alexhontz/geography
+> webpack -w & node server/start.js
+
+server listening on 7500.
+
+Webpack is watching the files…
+
+Hash: b6b1c5b4ee6d6b25226b
+Version: webpack 3.12.0
+Time: 3924ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [127] ./app/main.jsx 426 bytes {0} [built]
+ [280] ./public/countries/AFG.geo.json 1.68 kB {0} [built]
+    + 279 hidden modules
+
+> boilerplate@0.0.1 start /alexhontz/geography
+> webpack -w & node server/start.js
+
+server listening on 7500.
+
+Webpack is watching the files…
+
+5ZZZ ——> GET / 
+5ZZZ <—— 304 Not Modified (<—> 20.7 ms)
+98HG ——> GET /bundle.js 
+RRuf ——> GET /style.css 
+RRuf <—— 304 Not Modified (<—> 10.7 ms)
+98HG <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 127.9 ms)
+Hash: b6b1c5b4ee6d6b25226b
+Version: webpack 3.12.0
+Time: 4447ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [127] ./app/main.jsx 426 bytes {0} [built]
+ [280] ./public/countries/AFG.geo.json 1.68 kB {0} [built]
+    + 279 hidden modules
+inb0 ——> GET /bundle.js.map 
+inb0 <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 8.6 ms)
+x0dk ——> GET /earth.jpg 
+x0dk <—— 304 Not Modified (<—> 0.6 ms)
+sVsA ——> GET /favicon.ico 
+sVsA <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+Hash: 40a7a31118e0f5183def
+Version: webpack 3.12.0
+Time: 1861ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+zo1y ——> GET / 
+zo1y <—— 304 Not Modified (<—> 3.1 ms)
+mxFt ——> GET /style.css 
+uzBU ——> GET /bundle.js 
+mxFt <—— 304 Not Modified (<—> 0.9 ms)
+uzBU <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 120.8 ms)
+00qG ——> GET /bundle.js.map 
+00qG <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 6.4 ms)
+wvjB ——> GET /earth.jpg 
+wvjB <—— 304 Not Modified (<—> 0.6 ms)
+2rAt ——> GET /favicon.ico 
+2rAt <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 60a9c3d90a6e4b686b82
+Version: webpack 3.12.0
+Time: 1108ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+mZLL ——> GET / 
+mZLL <—— 304 Not Modified (<—> 0.7 ms)
+yyOz ——> GET /bundle.js 
+ZCgA ——> GET /style.css 
+ZCgA <—— 304 Not Modified (<—> 0.7 ms)
+yyOz <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 115.7 ms)
+b6bc ——> GET /bundle.js.map 
+b6bc <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 8.8 ms)
+bUUM ——> GET /earth.jpg 
+bUUM <—— 304 Not Modified (<—> 0.7 ms)
+l6WY ——> GET /favicon.ico 
+l6WY <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+42ck ——> GET / 
+42ck <—— 304 Not Modified (<—> 1.0 ms)
+NA6X ——> GET /style.css 
+MQMU ——> GET /bundle.js 
+NA6X <—— 304 Not Modified (<—> 1.0 ms)
+MQMU <—— 304 Not Modified (<—> 4.1 ms)
+193b ——> GET /bundle.js.map 
+193b <—— 304 Not Modified (<—> 0.6 ms)
+Q0Ap ——> GET /earth.jpg 
+Q0Ap <—— 304 Not Modified (<—> 0.6 ms)
+LXtS ——> GET /favicon.ico 
+LXtS <—— 200 OK 14.01 KB image/x-icon (<—> 1.3 ms)
+Hash: 081836c39360cc8876ff
+Version: webpack 3.12.0
+Time: 1038ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+jsp0 ——> GET / 
+jsp0 <—— 304 Not Modified (<—> 0.6 ms)
+koRP ——> GET /style.css 
+nV2y ——> GET /bundle.js 
+koRP <—— 304 Not Modified (<—> 1.0 ms)
+nV2y <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 110.4 ms)
+TEfy ——> GET /bundle.js.map 
+TEfy <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 7.5 ms)
+xIrH ——> GET /earth.jpg 
+xIrH <—— 304 Not Modified (<—> 0.6 ms)
+XWU5 ——> GET /favicon.ico 
+XWU5 <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+Hash: ccb66b48bde5b18f377d
+Version: webpack 3.12.0
+Time: 1166ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+05Fa ——> GET / 
+05Fa <—— 304 Not Modified (<—> 0.8 ms)
+HYHo ——> GET /bundle.js 
+Akyz ——> GET /style.css 
+Akyz <—— 304 Not Modified (<—> 0.8 ms)
+HYHo <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 307.8 ms)
+9qJQ ——> GET /bundle.js.map 
+j91g ——> GET /earth.jpg 
+j91g <—— 304 Not Modified (<—> 0.7 ms)
+9qJQ <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 206.2 ms)
+bUU7 ——> GET /favicon.ico 
+bUU7 <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+Hash: 7a42a83ef830877b935b
+Version: webpack 3.12.0
+Time: 1076ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+9RqD ——> GET / 
+9RqD <—— 304 Not Modified (<—> 0.7 ms)
+cS5k ——> GET /style.css 
+cS5k <—— 304 Not Modified (<—> 0.6 ms)
+qLjG ——> GET /bundle.js 
+qLjG <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 148.0 ms)
+AA2c ——> GET /bundle.js.map 
+AA2c <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 66.1 ms)
+SQXW ——> GET /earth.jpg 
+SQXW <—— 304 Not Modified (<—> 0.5 ms)
+Vp43 ——> GET /favicon.ico 
+Vp43 <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+Hash: e6ab7d7952b1b76ae838
+Version: webpack 3.12.0
+Time: 998ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+cxQ8 ——> GET / 
+cxQ8 <—— 304 Not Modified (<—> 0.7 ms)
+kRia ——> GET /bundle.js 
+Th5e ——> GET /style.css 
+Th5e <—— 304 Not Modified (<—> 0.7 ms)
+kRia <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 111.8 ms)
+yCuL ——> GET /bundle.js.map 
+yCuL <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 10.0 ms)
+3IGL ——> GET /earth.jpg 
+3IGL <—— 304 Not Modified (<—> 0.9 ms)
+DJLx ——> GET /favicon.ico 
+DJLx <—— 200 OK 14.01 KB image/x-icon (<—> 1.3 ms)
+CQCx ——> GET / 
+CQCx <—— 304 Not Modified (<—> 1.2 ms)
+26pb ——> GET /style.css 
+26pb <—— 304 Not Modified (<—> 0.9 ms)
+h66z ——> GET /bundle.js 
+h66z <—— 304 Not Modified (<—> 0.5 ms)
+sEEz ——> GET /bundle.js.map 
+sEEz <—— 304 Not Modified (<—> 0.9 ms)
+0iLo ——> GET /earth.jpg 
+0iLo <—— 304 Not Modified (<—> 0.7 ms)
+yOWH ——> GET /favicon.ico 
+yOWH <—— 200 OK 14.01 KB image/x-icon (<—> 1.7 ms)
+Hash: 191f502a792269e6fd34
+Version: webpack 3.12.0
+Time: 1088ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+Hash: 95006c100f2fae3399bc
+Version: webpack 3.12.0
+Time: 1064ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+F3qt ——> GET / 
+F3qt <—— 304 Not Modified (<—> 0.8 ms)
+lmG2 ——> GET /style.css 
+lmG2 <—— 304 Not Modified (<—> 0.7 ms)
+Zm17 ——> GET /bundle.js 
+Zm17 <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 125.2 ms)
+MGAD ——> GET /bundle.js.map 
+MGAD <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 6.9 ms)
+2pjB ——> GET /earth.jpg 
+2pjB <—— 304 Not Modified (<—> 0.6 ms)
+m03w ——> GET /favicon.ico 
+m03w <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+336d ——> GET / 
+336d <—— 304 Not Modified (<—> 1.0 ms)
+sCj2 ——> GET /style.css 
+sCj2 <—— 304 Not Modified (<—> 0.8 ms)
+ZzfF ——> GET /bundle.js 
+ZzfF <—— 304 Not Modified (<—> 0.7 ms)
+tWmw ——> GET /bundle.js.map 
+tWmw <—— 304 Not Modified (<—> 0.7 ms)
+NWd7 ——> GET /earth.jpg 
+NWd7 <—— 304 Not Modified (<—> 0.9 ms)
+PM47 ——> GET /favicon.ico 
+PM47 <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: a362a99503afe05afe57
+Version: webpack 3.12.0
+Time: 1085ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+QtKe ——> GET / 
+QtKe <—— 304 Not Modified (<—> 0.7 ms)
+DSJU ——> GET /style.css 
+pAHS ——> GET /bundle.js 
+DSJU <—— 304 Not Modified (<—> 1.0 ms)
+pAHS <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 115.6 ms)
+4yPC ——> GET /bundle.js.map 
+4yPC <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 8.1 ms)
+c57p ——> GET /earth.jpg 
+c57p <—— 304 Not Modified (<—> 0.7 ms)
+He0H ——> GET /favicon.ico 
+He0H <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+JMbn ——> GET / 
+JMbn <—— 304 Not Modified (<—> 0.7 ms)
+ZOQq ——> GET /style.css 
+ZOQq <—— 304 Not Modified (<—> 0.7 ms)
+DRF4 ——> GET /bundle.js 
+DRF4 <—— 304 Not Modified (<—> 0.7 ms)
+5nEu ——> GET /bundle.js.map 
+5nEu <—— 304 Not Modified (<—> 0.7 ms)
+zn3X ——> GET /earth.jpg 
+zn3X <—— 304 Not Modified (<—> 0.7 ms)
+v6M6 ——> GET /favicon.ico 
+v6M6 <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: dffa283954e41502a24c
+Version: webpack 3.12.0
+Time: 1108ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+Yj3f ——> GET / 
+Yj3f <—— 304 Not Modified (<—> 0.7 ms)
+QHA0 ——> GET /style.css 
+a2vM ——> GET /bundle.js 
+QHA0 <—— 304 Not Modified (<—> 0.9 ms)
+a2vM <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 121.1 ms)
+9wKa ——> GET /bundle.js.map 
+9wKa <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 7.2 ms)
+zGx7 ——> GET /earth.jpg 
+zGx7 <—— 304 Not Modified (<—> 0.6 ms)
+p8nT ——> GET /favicon.ico 
+p8nT <—— 200 OK 14.01 KB image/x-icon (<—> 1.3 ms)
+Hash: fb52aa93bff6554363a7
+Version: webpack 3.12.0
+Time: 1227ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+PXUj ——> GET / 
+PXUj <—— 304 Not Modified (<—> 0.8 ms)
+5v4A ——> GET /style.css 
+5v4A <—— 304 Not Modified (<—> 0.7 ms)
+RWK7 ——> GET /bundle.js 
+RWK7 <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 160.8 ms)
+OuZJ ——> GET /bundle.js.map 
+OuZJ <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 8.2 ms)
+1Opf ——> GET /earth.jpg 
+1Opf <—— 304 Not Modified (<—> 0.9 ms)
+sZUS ——> GET /favicon.ico 
+sZUS <—— 200 OK 14.01 KB image/x-icon (<—> 2.3 ms)
+Hash: e279c243612991e6a2dc
+Version: webpack 3.12.0
+Time: 1046ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+o8sX ——> GET / 
+o8sX <—— 304 Not Modified (<—> 0.7 ms)
+nD0U ——> GET /style.css 
+jE0A ——> GET /bundle.js 
+nD0U <—— 304 Not Modified (<—> 0.9 ms)
+jE0A <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 184.7 ms)
+Bezn ——> GET /bundle.js.map 
+Bezn <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 61.8 ms)
+2IGH ——> GET /earth.jpg 
+2IGH <—— 304 Not Modified (<—> 0.6 ms)
+0kCF ——> GET /favicon.ico 
+0kCF <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 80cd7f30ff77142e9420
+Version: webpack 3.12.0
+Time: 1039ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+tz0p ——> GET / 
+tz0p <—— 304 Not Modified (<—> 0.9 ms)
+fB2I ——> GET /style.css 
+fB2I <—— 304 Not Modified (<—> 0.7 ms)
+pvvd ——> GET /bundle.js 
+pvvd <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 102.4 ms)
+HgAa ——> GET /bundle.js.map 
+HgAa <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 25.2 ms)
+zSTe ——> GET /earth.jpg 
+zSTe <—— 304 Not Modified (<—> 2.6 ms)
+mVp3 ——> GET /favicon.ico 
+mVp3 <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+Hash: af8ee3e9a48191557636
+Version: webpack 3.12.0
+Time: 878ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+LpZG ——> GET / 
+LpZG <—— 304 Not Modified (<—> 0.7 ms)
+pG67 ——> GET /style.css 
+wj25 ——> GET /bundle.js 
+pG67 <—— 304 Not Modified (<—> 1.1 ms)
+wj25 <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 102.7 ms)
+jTJn ——> GET /bundle.js.map 
+jTJn <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 6.6 ms)
+gmlT ——> GET /earth.jpg 
+gmlT <—— 304 Not Modified (<—> 0.8 ms)
+enr5 ——> GET /favicon.ico 
+enr5 <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 1d35e24c685cf2d445e9
+Version: webpack 3.12.0
+Time: 1089ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+ST39 ——> GET / 
+ST39 <—— 304 Not Modified (<—> 0.7 ms)
+LPpR ——> GET /style.css 
+fw3p ——> GET /bundle.js 
+LPpR <—— 304 Not Modified (<—> 0.9 ms)
+fw3p <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 901.9 ms)
+IiKz ——> GET /bundle.js.map 
+X22D ——> GET /earth.jpg 
+X22D <—— 304 Not Modified (<—> 0.5 ms)
+IiKz <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 332.6 ms)
+ZpWH ——> GET /favicon.ico 
+ZpWH <—— 200 OK 14.01 KB image/x-icon (<—> 1.4 ms)
+zc28 ——> GET / 
+zc28 <—— 304 Not Modified (<—> 0.7 ms)
+mxgZ ——> GET /style.css 
+mxgZ <—— 304 Not Modified (<—> 0.6 ms)
+Y1Bc ——> GET /bundle.js 
+Y1Bc <—— 304 Not Modified (<—> 0.4 ms)
+n7ns ——> GET /bundle.js.map 
+n7ns <—— 304 Not Modified (<—> 0.7 ms)
+JGME ——> GET /earth.jpg 
+JGME <—— 304 Not Modified (<—> 0.7 ms)
+kZSb ——> GET /favicon.ico 
+kZSb <—— 200 OK 14.01 KB image/x-icon (<—> 1.3 ms)
+Hash: aacf02f864a3bb7d98e6
+Version: webpack 3.12.0
+Time: 1088ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+8qls ——> GET / 
+8qls <—— 304 Not Modified (<—> 0.6 ms)
+7uaG ——> GET /style.css 
+7uaG <—— 304 Not Modified (<—> 0.6 ms)
+goCJ ——> GET /bundle.js 
+goCJ <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 802.4 ms)
+Lewk ——> GET /bundle.js.map 
+JicG ——> GET /earth.jpg 
+JicG <—— 304 Not Modified (<—> 0.7 ms)
+Lewk <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 317.8 ms)
+qOpZ ——> GET /favicon.ico 
+qOpZ <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 026c5cfbf6633197ffdb
+Version: webpack 3.12.0
+Time: 994ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+d1W1 ——> GET / 
+d1W1 <—— 304 Not Modified (<—> 0.6 ms)
+Qo5W ——> GET /style.css 
+Qo5W <—— 304 Not Modified (<—> 0.6 ms)
+JtTP ——> GET /bundle.js 
+JtTP <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 183.3 ms)
+0Wzi ——> GET /bundle.js.map 
+rHIz ——> GET /earth.jpg 
+rHIz <—— 304 Not Modified (<—> 0.5 ms)
+0Wzi <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 118.8 ms)
+ZZvp ——> GET /favicon.ico 
+ZZvp <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 33202203d8eb985761d7
+Version: webpack 3.12.0
+Time: 899ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+DXpA ——> GET / 
+DXpA <—— 304 Not Modified (<—> 0.7 ms)
+Hl41 ——> GET /style.css 
+Hl41 <—— 304 Not Modified (<—> 0.7 ms)
+iAfK ——> GET /bundle.js 
+iAfK <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 154.5 ms)
+aBkJ ——> GET /bundle.js.map 
+8AtV ——> GET /earth.jpg 
+8AtV <—— 304 Not Modified (<—> 0.6 ms)
+aBkJ <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 63.6 ms)
+qdAZ ——> GET /favicon.ico 
+qdAZ <—— 200 OK 14.01 KB image/x-icon (<—> 1.3 ms)
+Hash: 71eb6316eaf7eb24bc4f
+Version: webpack 3.12.0
+Time: 1112ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+Tn77 ——> GET / 
+Tn77 <—— 304 Not Modified (<—> 1.7 ms)
+oS48 ——> GET /style.css 
+n0GR ——> GET /bundle.js 
+oS48 <—— 304 Not Modified (<—> 0.9 ms)
+n0GR <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 100.5 ms)
+Pj2A ——> GET /bundle.js.map 
+rI6T ——> GET /earth.jpg 
+rI6T <—— 304 Not Modified (<—> 0.7 ms)
+Pj2A <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 110.7 ms)
+i8MD ——> GET /favicon.ico 
+i8MD <—— 200 OK 14.01 KB image/x-icon (<—> 2.7 ms)
+Hash: 58504a0f3a613a820947
+Version: webpack 3.12.0
+Time: 1318ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+0C5Z ——> GET / 
+0C5Z <—— 304 Not Modified (<—> 0.7 ms)
+5sRS ——> GET /bundle.js 
+JcMs ——> GET /style.css 
+JcMs <—— 304 Not Modified (<—> 0.6 ms)
+5sRS <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 184.8 ms)
+61R6 ——> GET /bundle.js.map 
+XaqY ——> GET /earth.jpg 
+XaqY <—— 304 Not Modified (<—> 0.6 ms)
+61R6 <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 98.3 ms)
+7H3L ——> GET /favicon.ico 
+7H3L <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: abae3e152a4cea7a8877
+Version: webpack 3.12.0
+Time: 1144ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+OYiB ——> GET / 
+OYiB <—— 304 Not Modified (<—> 0.7 ms)
+QTBv ——> GET /style.css 
+QTBv <—— 304 Not Modified (<—> 0.6 ms)
+4aVJ ——> GET /bundle.js 
+4aVJ <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 111.5 ms)
+jKPV ——> GET /bundle.js.map 
+bZt9 ——> GET /earth.jpg 
+bZt9 <—— 304 Not Modified (<—> 0.6 ms)
+jKPV <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 130.5 ms)
+jod1 ——> GET /favicon.ico 
+jod1 <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+QAez ——> GET / 
+QAez <—— 304 Not Modified (<—> 0.8 ms)
+Ip5v ——> GET /style.css 
+Ip5v <—— 304 Not Modified (<—> 1.0 ms)
+jeMu ——> GET /bundle.js 
+jeMu <—— 304 Not Modified (<—> 0.4 ms)
+Jjf8 ——> GET /bundle.js.map 
+Jjf8 <—— 304 Not Modified (<—> 1.9 ms)
+Fq7v ——> GET /earth.jpg 
+Fq7v <—— 304 Not Modified (<—> 0.5 ms)
+88TF ——> GET /favicon.ico 
+88TF <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 5879041160a795e04d5b
+Version: webpack 3.12.0
+Time: 1067ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+oYaR ——> GET / 
+oYaR <—— 304 Not Modified (<—> 0.7 ms)
+s4U4 ——> GET /style.css 
+MWAH ——> GET /bundle.js 
+s4U4 <—— 304 Not Modified (<—> 1.0 ms)
+MWAH <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 143.4 ms)
+SkEr ——> GET /bundle.js.map 
+aXeG ——> GET /earth.jpg 
+aXeG <—— 304 Not Modified (<—> 0.7 ms)
+SkEr <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 133.1 ms)
+tyxc ——> GET /favicon.ico 
+tyxc <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: a8ad06909aff683c9a01
+Version: webpack 3.12.0
+Time: 1061ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+Q1Uk ——> GET / 
+Q1Uk <—— 304 Not Modified (<—> 0.6 ms)
+MNRv ——> GET /style.css 
+MNRv <—— 304 Not Modified (<—> 0.6 ms)
+ICKz ——> GET /bundle.js 
+ICKz <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 150.0 ms)
+WuOW ——> GET /bundle.js.map 
+H6YG ——> GET /earth.jpg 
+H6YG <—— 304 Not Modified (<—> 0.5 ms)
+WuOW <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 70.2 ms)
+EHU6 ——> GET /favicon.ico 
+EHU6 <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 8456384baa201afbc089
+Version: webpack 3.12.0
+Time: 1048ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+Dybz ——> GET / 
+Dybz <—— 304 Not Modified (<—> 1.0 ms)
+6yZo ——> GET /style.css 
+6yZo <—— 304 Not Modified (<—> 0.6 ms)
+UIuQ ——> GET /bundle.js 
+UIuQ <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 113.5 ms)
+pfdr ——> GET /bundle.js.map 
+f6nL ——> GET /earth.jpg 
+f6nL <—— 304 Not Modified (<—> 0.6 ms)
+pfdr <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 103.6 ms)
+REV0 ——> GET /favicon.ico 
+REV0 <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+Hash: fd1367765e1a91013bc4
+Version: webpack 3.12.0
+Time: 1276ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+s9W3 ——> GET / 
+s9W3 <—— 304 Not Modified (<—> 0.8 ms)
+TfvD ——> GET /style.css 
+TfvD <—— 304 Not Modified (<—> 0.6 ms)
+Nq09 ——> GET /bundle.js 
+Nq09 <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 133.1 ms)
+DcQs ——> GET /bundle.js.map 
+BWoU ——> GET /earth.jpg 
+BWoU <—— 304 Not Modified (<—> 0.6 ms)
+DcQs <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 115.7 ms)
+aNUH ——> GET /favicon.ico 
+aNUH <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: f0bede1fa2c397206167
+Version: webpack 3.12.0
+Time: 1088ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+T3p9 ——> GET / 
+T3p9 <—— 304 Not Modified (<—> 0.6 ms)
+XNua ——> GET /style.css 
+wyQ3 ——> GET /bundle.js 
+XNua <—— 304 Not Modified (<—> 0.9 ms)
+wyQ3 <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 209.6 ms)
+lgWR ——> GET /bundle.js.map 
+uRpR ——> GET /earth.jpg 
+uRpR <—— 304 Not Modified (<—> 0.6 ms)
+lgWR <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 78.5 ms)
+HVB4 ——> GET /favicon.ico 
+HVB4 <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 82566ba688e7f10043f7
+Version: webpack 3.12.0
+Time: 1189ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+VUVv ——> GET / 
+VUVv <—— 304 Not Modified (<—> 0.6 ms)
+F3B1 ——> GET /style.css 
+F3B1 <—— 304 Not Modified (<—> 0.6 ms)
+angq ——> GET /bundle.js 
+angq <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 145.3 ms)
+auM9 ——> GET /bundle.js.map 
+g2e5 ——> GET /earth.jpg 
+g2e5 <—— 304 Not Modified (<—> 0.8 ms)
+auM9 <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 172.8 ms)
+tOyd ——> GET /favicon.ico 
+tOyd <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 63e48e74971515d96fbd
+Version: webpack 3.12.0
+Time: 938ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+yMvw ——> GET / 
+yMvw <—— 304 Not Modified (<—> 0.7 ms)
+rd5Q ——> GET /bundle.js 
+Kyrw ——> GET /style.css 
+Kyrw <—— 304 Not Modified (<—> 0.5 ms)
+rd5Q <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 257.9 ms)
+rFFA ——> GET /bundle.js.map 
+BqJr ——> GET /earth.jpg 
+BqJr <—— 304 Not Modified (<—> 1.6 ms)
+rFFA <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 249.8 ms)
+q77z ——> GET /favicon.ico 
+q77z <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: f05f760ff3293a03097d
+Version: webpack 3.12.0
+Time: 1094ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+TqWO ——> GET / 
+TqWO <—— 304 Not Modified (<—> 0.6 ms)
+gHs5 ——> GET /style.css 
+gHs5 <—— 304 Not Modified (<—> 0.6 ms)
+B5bc ——> GET /bundle.js 
+B5bc <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 147.8 ms)
+2FKJ ——> GET /bundle.js.map 
+adIB ——> GET /earth.jpg 
+adIB <—— 304 Not Modified (<—> 0.6 ms)
+2FKJ <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 73.1 ms)
+YJnp ——> GET /favicon.ico 
+YJnp <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 8be349adf67365721605
+Version: webpack 3.12.0
+Time: 1050ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+MbJf ——> GET / 
+MbJf <—— 304 Not Modified (<—> 0.5 ms)
+tIJl ——> GET /bundle.js 
+nRGB ——> GET /style.css 
+nRGB <—— 304 Not Modified (<—> 0.5 ms)
+tIJl <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 145.5 ms)
+2xgv ——> GET /bundle.js.map 
+zymg ——> GET /earth.jpg 
+zymg <—— 304 Not Modified (<—> 0.6 ms)
+2xgv <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 96.4 ms)
+3Of1 ——> GET /favicon.ico 
+3Of1 <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 04df51109a79d66ed8a6
+Version: webpack 3.12.0
+Time: 1117ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+5w3Z ——> GET / 
+5w3Z <—— 304 Not Modified (<—> 0.6 ms)
+xLst ——> GET /style.css 
+atNt ——> GET /bundle.js 
+xLst <—— 304 Not Modified (<—> 0.8 ms)
+atNt <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 166.7 ms)
+DVRr ——> GET /bundle.js.map 
+0l8u ——> GET /earth.jpg 
+0l8u <—— 304 Not Modified (<—> 0.6 ms)
+DVRr <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 95.7 ms)
+UTZM ——> GET /favicon.ico 
+UTZM <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+sVU3 ——> GET / 
+sVU3 <—— 304 Not Modified (<—> 0.6 ms)
+bYnr ——> GET /style.css 
+bYnr <—— 304 Not Modified (<—> 1.4 ms)
+s7Cj ——> GET /bundle.js 
+s7Cj <—— 304 Not Modified (<—> 0.5 ms)
+a7hE ——> GET /bundle.js.map 
+a7hE <—— 304 Not Modified (<—> 0.7 ms)
+3M9N ——> GET /earth.jpg 
+3M9N <—— 304 Not Modified (<—> 0.7 ms)
+iLX8 ——> GET /favicon.ico 
+iLX8 <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 0b3a061710a71f04f91d
+Version: webpack 3.12.0
+Time: 1078ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+CFih ——> GET / 
+CFih <—— 304 Not Modified (<—> 0.6 ms)
+WsKK ——> GET /style.css 
+WsKK <—— 304 Not Modified (<—> 0.6 ms)
+OvyH ——> GET /bundle.js 
+OvyH <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 126.0 ms)
+NPRK ——> GET /bundle.js.map 
+xdJF ——> GET /earth.jpg 
+xdJF <—— 304 Not Modified (<—> 0.5 ms)
+NPRK <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 75.6 ms)
+jNuc ——> GET /favicon.ico 
+jNuc <—— 200 OK 14.01 KB image/x-icon (<—> 2.6 ms)
+Hash: 460e751799fe678f88bd
+Version: webpack 3.12.0
+Time: 1108ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+ar1b ——> GET / 
+ar1b <—— 304 Not Modified (<—> 0.7 ms)
+yoWi ——> GET /bundle.js 
+6D8f ——> GET /style.css 
+6D8f <—— 304 Not Modified (<—> 0.8 ms)
+yoWi <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 143.0 ms)
+8yfR ——> GET /bundle.js.map 
+Hj95 ——> GET /earth.jpg 
+Hj95 <—— 304 Not Modified (<—> 0.7 ms)
+8yfR <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 188.5 ms)
+sLsu ——> GET /favicon.ico 
+sLsu <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: cd1f390a36baa1bd088b
+Version: webpack 3.12.0
+Time: 1274ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+BOSC ——> GET / 
+BOSC <—— 304 Not Modified (<—> 0.6 ms)
+cRmV ——> GET /style.css 
+cRmV <—— 304 Not Modified (<—> 0.6 ms)
+lyEI ——> GET /bundle.js 
+lyEI <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 183.9 ms)
+ZCEO ——> GET /bundle.js.map 
+MJSv ——> GET /earth.jpg 
+MJSv <—— 304 Not Modified (<—> 0.7 ms)
+ZCEO <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 83.8 ms)
+GWWR ——> GET /favicon.ico 
+GWWR <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: 181b8e9925bd5c51bf46
+Version: webpack 3.12.0
+Time: 1090ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+QFKr ——> GET / 
+QFKr <—— 304 Not Modified (<—> 0.6 ms)
+jesx ——> GET /style.css 
+7cPq ——> GET /bundle.js 
+jesx <—— 304 Not Modified (<—> 0.9 ms)
+7cPq <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 222.4 ms)
+w7P5 ——> GET /bundle.js.map 
+WKpV ——> GET /earth.jpg 
+WKpV <—— 304 Not Modified (<—> 0.6 ms)
+w7P5 <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 94.9 ms)
+04Q9 ——> GET /favicon.ico 
+04Q9 <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: d8182bca274558a053d3
+Version: webpack 3.12.0
+Time: 1116ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+qwqU ——> GET / 
+qwqU <—— 304 Not Modified (<—> 0.6 ms)
+CRs1 ——> GET /bundle.js 
+X1bP ——> GET /style.css 
+X1bP <—— 304 Not Modified (<—> 0.5 ms)
+CRs1 <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 126.1 ms)
+66Gc ——> GET /bundle.js.map 
+nTLG ——> GET /earth.jpg 
+nTLG <—— 304 Not Modified (<—> 0.6 ms)
+66Gc <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 160.7 ms)
+BQrV ——> GET /favicon.ico 
+BQrV <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 14d26e6a1ce5ec9217f9
+Version: webpack 3.12.0
+Time: 1043ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+yC5y ——> GET / 
+yC5y <—— 304 Not Modified (<—> 0.6 ms)
+1G2I ——> GET /style.css 
+9eg9 ——> GET /bundle.js 
+1G2I <—— 304 Not Modified (<—> 0.9 ms)
+9eg9 <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 296.1 ms)
+OEKx ——> GET /bundle.js.map 
+AIof ——> GET /earth.jpg 
+AIof <—— 304 Not Modified (<—> 0.7 ms)
+OEKx <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 225.4 ms)
+GH8r ——> GET /favicon.ico 
+GH8r <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 2a08e3b9a33ebc5c9a4b
+Version: webpack 3.12.0
+Time: 1137ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+t1sR ——> GET / 
+t1sR <—— 304 Not Modified (<—> 0.6 ms)
+NMnr ——> GET /style.css 
+ehgA ——> GET /bundle.js 
+NMnr <—— 304 Not Modified (<—> 0.8 ms)
+ehgA <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 331.2 ms)
+OPNe ——> GET /bundle.js.map 
+PbGH ——> GET /earth.jpg 
+PbGH <—— 304 Not Modified (<—> 0.5 ms)
+OPNe <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 215.4 ms)
+ohLh ——> GET /favicon.ico 
+ohLh <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 3207088489f9ae14c64a
+Version: webpack 3.12.0
+Time: 1055ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+7vKP ——> GET / 
+7vKP <—— 304 Not Modified (<—> 0.6 ms)
+LJaL ——> GET /style.css 
+heA4 ——> GET /bundle.js 
+LJaL <—— 304 Not Modified (<—> 0.8 ms)
+heA4 <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 130.4 ms)
+Oldw ——> GET /bundle.js.map 
+rzZ9 ——> GET /earth.jpg 
+rzZ9 <—— 304 Not Modified (<—> 0.5 ms)
+Oldw <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 247.6 ms)
+KWpK ——> GET /favicon.ico 
+KWpK <—— 200 OK 14.01 KB image/x-icon (<—> 2.1 ms)
+Hash: 241af768df60a7120f0f
+Version: webpack 3.12.0
+Time: 1118ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+PIHy ——> GET / 
+PIHy <—— 304 Not Modified (<—> 0.7 ms)
+yXUu ——> GET /style.css 
+yXUu <—— 304 Not Modified (<—> 0.6 ms)
+NNWh ——> GET /bundle.js 
+NNWh <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 178.8 ms)
+fgfK ——> GET /bundle.js.map 
+0YBD ——> GET /earth.jpg 
+0YBD <—— 304 Not Modified (<—> 0.6 ms)
+fgfK <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 103.5 ms)
+wU3k ——> GET /favicon.ico 
+wU3k <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 817f2b93ffdc6e2a9209
+Version: webpack 3.12.0
+Time: 1127ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+i5s9 ——> GET / 
+i5s9 <—— 304 Not Modified (<—> 0.6 ms)
+pgVP ——> GET /style.css 
+WxAo ——> GET /bundle.js 
+pgVP <—— 304 Not Modified (<—> 0.8 ms)
+WxAo <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 177.9 ms)
+E9VJ ——> GET /bundle.js.map 
+cao7 ——> GET /earth.jpg 
+cao7 <—— 304 Not Modified (<—> 0.7 ms)
+E9VJ <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 250.0 ms)
+KaFp ——> GET /favicon.ico 
+KaFp <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: f30d09f9478e9d757e4d
+Version: webpack 3.12.0
+Time: 1095ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+u7oA ——> GET / 
+u7oA <—— 304 Not Modified (<—> 0.7 ms)
+RMSU ——> GET /style.css 
+mGxc ——> GET /bundle.js 
+RMSU <—— 304 Not Modified (<—> 0.9 ms)
+mGxc <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 106.0 ms)
+egLz ——> GET /bundle.js.map 
+tsQP ——> GET /earth.jpg 
+tsQP <—— 304 Not Modified (<—> 0.5 ms)
+egLz <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 78.3 ms)
+t3WY ——> GET /favicon.ico 
+t3WY <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: 56666e3e702861d7573d
+Version: webpack 3.12.0
+Time: 939ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+Pkmz ——> GET / 
+Pkmz <—— 304 Not Modified (<—> 0.7 ms)
+McSe ——> GET /bundle.js 
+8XTg ——> GET /style.css 
+8XTg <—— 304 Not Modified (<—> 0.5 ms)
+McSe <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 122.8 ms)
+jfZ4 ——> GET /bundle.js.map 
+Qr2o ——> GET /earth.jpg 
+Qr2o <—— 304 Not Modified (<—> 0.5 ms)
+jfZ4 <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 130.2 ms)
+TRJ2 ——> GET /favicon.ico 
+TRJ2 <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+ewNb ——> GET / 
+ewNb <—— 304 Not Modified (<—> 0.7 ms)
+rAH0 ——> GET /style.css 
+SNbb ——> GET /bundle.js 
+rAH0 <—— 304 Not Modified (<—> 0.9 ms)
+SNbb <—— 304 Not Modified (<—> 0.7 ms)
+1qj8 ——> GET /bundle.js.map 
+1qj8 <—— 304 Not Modified (<—> 0.6 ms)
+nL5h ——> GET /earth.jpg 
+nL5h <—— 304 Not Modified (<—> 0.6 ms)
+14f7 ——> GET /favicon.ico 
+14f7 <—— 200 OK 14.01 KB image/x-icon (<—> 2.0 ms)
+Hash: 847d6d2df169cc50a817
+Version: webpack 3.12.0
+Time: 1106ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+LGTL ——> GET / 
+LGTL <—— 304 Not Modified (<—> 0.7 ms)
+9Ia1 ——> GET /style.css 
+9Ia1 <—— 304 Not Modified (<—> 0.6 ms)
+bQ1Q ——> GET /bundle.js 
+bQ1Q <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 267.4 ms)
+fmhT ——> GET /bundle.js.map 
+qs3J ——> GET /earth.jpg 
+qs3J <—— 304 Not Modified (<—> 0.5 ms)
+fmhT <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 173.4 ms)
+nGfr ——> GET /favicon.ico 
+nGfr <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+EI2G ——> GET / 
+EI2G <—— 304 Not Modified (<—> 0.6 ms)
+rzM5 ——> GET /style.css 
+3yVo ——> GET /bundle.js 
+rzM5 <—— 304 Not Modified (<—> 0.8 ms)
+3yVo <—— 304 Not Modified (<—> 4.0 ms)
+G2Vj ——> GET /bundle.js.map 
+G2Vj <—— 304 Not Modified (<—> 0.5 ms)
+pDCt ——> GET /earth.jpg 
+pDCt <—— 304 Not Modified (<—> 0.5 ms)
+JKdU ——> GET /favicon.ico 
+JKdU <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 396f10d14352170722bc
+Version: webpack 3.12.0
+Time: 1068ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+3cCa ——> GET / 
+3cCa <—— 304 Not Modified (<—> 0.6 ms)
+h8n4 ——> GET /style.css 
+h8n4 <—— 304 Not Modified (<—> 0.5 ms)
+MrzI ——> GET /bundle.js 
+MrzI <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 132.6 ms)
+jtUk ——> GET /bundle.js.map 
+jtUk <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 63.2 ms)
+CJLy ——> GET /earth.jpg 
+CJLy <—— 304 Not Modified (<—> 0.5 ms)
+k0j8 ——> GET /favicon.ico 
+k0j8 <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 3570c19b470000c6f125
+Version: webpack 3.12.0
+Time: 890ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+jn1X ——> GET / 
+jn1X <—— 304 Not Modified (<—> 0.6 ms)
+Dq6U ——> GET /style.css 
+Dq6U <—— 304 Not Modified (<—> 0.6 ms)
+ivoS ——> GET /bundle.js 
+ivoS <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 115.8 ms)
+eHw6 ——> GET /bundle.js.map 
+27VQ ——> GET /earth.jpg 
+27VQ <—— 304 Not Modified (<—> 0.5 ms)
+eHw6 <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 132.6 ms)
+Lr8F ——> GET /favicon.ico 
+Lr8F <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: d25f71fb680fdb99b5c9
+Version: webpack 3.12.0
+Time: 1149ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+qPPZ ——> GET / 
+qPPZ <—— 304 Not Modified (<—> 0.6 ms)
+3JGt ——> GET /style.css 
+3JGt <—— 304 Not Modified (<—> 0.5 ms)
+2Owj ——> GET /bundle.js 
+2Owj <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 150.4 ms)
+w83k ——> GET /bundle.js.map 
+oiRO ——> GET /earth.jpg 
+oiRO <—— 304 Not Modified (<—> 0.6 ms)
+w83k <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 76.6 ms)
+akKl ——> GET /favicon.ico 
+akKl <—— 200 OK 14.01 KB image/x-icon (<—> 2.1 ms)
+Hash: e3064f3c81822837e961
+Version: webpack 3.12.0
+Time: 1190ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+fO6C ——> GET / 
+fO6C <—— 304 Not Modified (<—> 0.8 ms)
+KEjI ——> GET /style.css 
+khns ——> GET /bundle.js 
+KEjI <—— 304 Not Modified (<—> 0.9 ms)
+khns <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 109.9 ms)
+Bi5y ——> GET /bundle.js.map 
+zncK ——> GET /earth.jpg 
+zncK <—— 304 Not Modified (<—> 0.6 ms)
+Bi5y <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 107.8 ms)
+EqYe ——> GET /favicon.ico 
+EqYe <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: de64e50e5c82689a1d84
+Version: webpack 3.12.0
+Time: 968ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+Hash: 5b4bac9623b764212cbd
+Version: webpack 3.12.0
+Time: 837ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+fuYw ——> GET / 
+fuYw <—— 304 Not Modified (<—> 0.7 ms)
+pPbF ——> GET /style.css 
+pPbF <—— 304 Not Modified (<—> 0.6 ms)
+ejt4 ——> GET /bundle.js 
+ejt4 <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 110.3 ms)
+c1w1 ——> GET /bundle.js.map 
+JgHB ——> GET /earth.jpg 
+JgHB <—— 304 Not Modified (<—> 0.6 ms)
+c1w1 <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 137.7 ms)
+1uNe ——> GET /favicon.ico 
+1uNe <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: de64e50e5c82689a1d84
+Version: webpack 3.12.0
+Time: 1151ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   281 modules
+7LFt ——> GET / 
+7LFt <—— 304 Not Modified (<—> 0.7 ms)
+xKu4 ——> GET /style.css 
+qrsr ——> GET /bundle.js 
+xKu4 <—— 304 Not Modified (<—> 2.2 ms)
+qrsr <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 326.3 ms)
+G4oR ——> GET /bundle.js.map 
+G4oR <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 60.5 ms)
+RY5Z ——> GET /earth.jpg 
+RY5Z <—— 304 Not Modified (<—> 0.6 ms)
+GzcK ——> GET /favicon.ico 
+GzcK <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+Hash: 2287d334d1d29745d5c7
+Version: webpack 3.12.0
+Time: 383ms
+                 Asset    Size  Chunks                    Chunk Names
+    ./public/bundle.js  745 kB       0  [emitted]  [big]  main
+./public/bundle.js.map  908 kB       0  [emitted]         main
+   188 modules
+
+ERROR in ./app/components/Root.jsx
+Module build failed: SyntaxError: Unexpected token, expected ) (153:3)
+
+  151 | 	for(var name in countries)
+  152 | 		if(d3.geoContains(countries[name], lla)
+> 153 | 			return name;
+      | 			^
+  154 | }
+  155 | 
+
+ @ ./app/main.jsx 9:12-40
+Hash: 5605d8e702a3cc988df1
+Version: webpack 3.12.0
+Time: 334ms
+                 Asset    Size  Chunks                    Chunk Names
+    ./public/bundle.js  745 kB       0  [emitted]  [big]  main
+./public/bundle.js.map  908 kB       0  [emitted]         main
+   188 modules
+
+ERROR in ./app/components/Root.jsx
+Module build failed: SyntaxError: Unexpected token, expected ) (158:3)
+
+  156 | 	for(var name in countries)
+  157 | 		if(d3.geoContains(countries[name], lla)
+> 158 | 			return name;
+      | 			^
+  159 | }
+  160 | 
+
+ @ ./app/main.jsx 9:12-40
+0WzJ ——> GET / 
+0WzJ <—— 304 Not Modified (<—> 0.7 ms)
+XWmb ——> GET /bundle.js 
+nNiv ——> GET /style.css 
+nNiv <—— 304 Not Modified (<—> 0.6 ms)
+XWmb <—— 200 OK 727.53 KB application/javascript; charset=UTF-8 (<—> 89.3 ms)
+decY ——> GET /bundle.js.map 
+GHN0 ——> GET /favicon.ico 
+GHN0 <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+decY <—— 200 OK 886.74 KB application/json; charset=UTF-8 (<—> 3.8 ms)
+KCJN ——> GET / 
+KCJN <—— 304 Not Modified (<—> 0.6 ms)
+nRNJ ——> GET /style.css 
+nRNJ <—— 304 Not Modified (<—> 0.5 ms)
+dJyO ——> GET /bundle.js 
+dJyO <—— 304 Not Modified (<—> 0.4 ms)
+NmtB ——> GET /bundle.js.map 
+NmtB <—— 304 Not Modified (<—> 0.6 ms)
+Z3hA ——> GET /favicon.ico 
+Z3hA <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 128031405fc7a564febb
+Version: webpack 3.12.0
+Time: 3103ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.36 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.8 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 5.05 kB {0} [built]
+ [494] ./public/countries/83.geo.json 2.05 kB {0} [optional] [built]
+ [495] ./public/countries/84.geo.json 421 bytes {0} [optional] [built]
+ [496] ./public/countries/85.geo.json 582 bytes {0} [optional] [built]
+ [497] ./public/countries/86.geo.json 1.66 kB {0} [optional] [built]
+ [498] ./public/countries/87.geo.json 2.6 kB {0} [optional] [built]
+ [499] ./public/countries/88.geo.json 883 bytes {0} [optional] [built]
+ [500] ./public/countries/89.geo.json 934 bytes {0} [optional] [built]
+ [501] ./public/countries/9.geo.json 5.92 kB {0} [optional] [built]
+ [502] ./public/countries/90.geo.json 555 bytes {0} [optional] [built]
+ [503] ./public/countries/91.geo.json 603 bytes {0} [optional] [built]
+ [504] ./public/countries/92.geo.json 364 bytes {0} [optional] [built]
+ [505] ./public/countries/93.geo.json 1.01 kB {0} [optional] [built]
+ [506] ./public/countries/94.geo.json 404 bytes {0} [optional] [built]
+ [507] ./public/countries/95.geo.json 738 bytes {0} [optional] [built]
+    + 496 hidden modules
+6kn9 ——> GET / 
+6kn9 <—— 304 Not Modified (<—> 0.6 ms)
+JA83 ——> GET /style.css 
+JA83 <—— 304 Not Modified (<—> 0.6 ms)
+vjYx ——> GET /bundle.js 
+vjYx <—— 200 OK 2.25 MB application/javascript; charset=UTF-8 (<—> 196.2 ms)
+tcy1 ——> GET /bundle.js.map 
+3uxW ——> GET /favicon.ico 
+3uxW <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+tcy1 <—— 200 OK 2.67 MB application/json; charset=UTF-8 (<—> 66.8 ms)
+Hash: f59d99ff2f269ea0e537
+Version: webpack 3.12.0
+Time: 1349ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.36 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.8 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 5.05 kB {0} [built]
+    + 510 hidden modules
+zpik ——> GET / 
+zpik <—— 304 Not Modified (<—> 0.6 ms)
+If0t ——> GET /bundle.js 
+Guws ——> GET /style.css 
+Guws <—— 304 Not Modified (<—> 0.6 ms)
+If0t <—— 200 OK 2.25 MB application/javascript; charset=UTF-8 (<—> 125.9 ms)
+Zlsy ——> GET /bundle.js.map 
+UDk8 ——> GET /favicon.ico 
+UDk8 <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Zlsy <—— 200 OK 2.67 MB application/json; charset=UTF-8 (<—> 141.2 ms)
+Hash: 85dc6c63a27452850ffb
+Version: webpack 3.12.0
+Time: 1220ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.36 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.8 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 5.05 kB {0} [built]
+    + 510 hidden modules
+1Ysw ——> GET / 
+1Ysw <—— 304 Not Modified (<—> 0.7 ms)
+YDYe ——> GET /style.css 
+YDYe <—— 304 Not Modified (<—> 0.6 ms)
+QIZ8 ——> GET /bundle.js 
+QIZ8 <—— 200 OK 2.25 MB application/javascript; charset=UTF-8 (<—> 226.2 ms)
+eV6H ——> GET /bundle.js.map 
+IslP ——> GET /favicon.ico 
+IslP <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+eV6H <—— 200 OK 2.67 MB application/json; charset=UTF-8 (<—> 136.1 ms)
+Hash: e3449a6f233ba04ef17d
+Version: webpack 3.12.0
+Time: 1206ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.36 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.8 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 5.05 kB {0} [built]
+    + 510 hidden modules
+lUTC ——> GET / 
+lUTC <—— 304 Not Modified (<—> 0.6 ms)
+HKP5 ——> GET /style.css 
+DfH4 ——> GET /bundle.js 
+HKP5 <—— 304 Not Modified (<—> 0.8 ms)
+DfH4 <—— 200 OK 2.25 MB application/javascript; charset=UTF-8 (<—> 307.8 ms)
+auRm ——> GET /bundle.js.map 
+Bfbb ——> GET /favicon.ico 
+Bfbb <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+auRm <—— 200 OK 2.67 MB application/json; charset=UTF-8 (<—> 168.8 ms)
+Hash: 03707b0c6955ee5ae64e
+Version: webpack 3.12.0
+Time: 1217ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.36 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.8 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 5.05 kB {0} [built]
+    + 510 hidden modules
+LdE2 ——> GET / 
+LdE2 <—— 304 Not Modified (<—> 0.7 ms)
+SkTG ——> GET /style.css 
+Uo8V ——> GET /bundle.js 
+SkTG <—— 304 Not Modified (<—> 0.9 ms)
+Uo8V <—— 200 OK 2.25 MB application/javascript; charset=UTF-8 (<—> 279.8 ms)
+tRrQ ——> GET /bundle.js.map 
+FHNV ——> GET /earth.jpg 
+FHNV <—— 304 Not Modified (<—> 0.5 ms)
+tRrQ <—— 200 OK 2.67 MB application/json; charset=UTF-8 (<—> 208.1 ms)
+t5gv ——> GET /favicon.ico 
+t5gv <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: d2c5cc1ee08265992942
+Version: webpack 3.12.0
+Time: 895ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.36 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.8 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 5.05 kB {0} [built]
+    + 510 hidden modules
+uaCE ——> GET / 
+uaCE <—— 304 Not Modified (<—> 1.6 ms)
+BZtH ——> GET /style.css 
+lBUu ——> GET /bundle.js 
+BZtH <—— 304 Not Modified (<—> 0.8 ms)
+lBUu <—— 200 OK 2.25 MB application/javascript; charset=UTF-8 (<—> 212.8 ms)
+PQPZ ——> GET /earth.jpg 
+PQPZ <—— 304 Not Modified (<—> 0.5 ms)
+YW1g ——> GET /favicon.ico 
+YW1g <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+4oaL ——> GET /style.css 
+4oaL <—— 304 Not Modified (<—> 0.6 ms)
+xI8X ——> GET /bundle.js.map 
+xI8X <—— 200 OK 2.67 MB application/json; charset=UTF-8 (<—> 300.5 ms)
+ufIn ——> GET / 
+ufIn <—— 304 Not Modified (<—> 0.5 ms)
+BNaP ——> GET /style.css 
+T9El ——> GET /bundle.js 
+BNaP <—— 304 Not Modified (<—> 0.8 ms)
+T9El <—— 304 Not Modified (<—> 0.6 ms)
+AnkU ——> GET /bundle.js.map 
+AnkU <—— 304 Not Modified (<—> 0.6 ms)
+ttcP ——> GET /earth.jpg 
+ttcP <—— 304 Not Modified (<—> 0.6 ms)
+U33w ——> GET /favicon.ico 
+U33w <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+FJlv ——> GET / 
+FJlv <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.5 ms)
+UDRX ——> GET /style.css 
+yRRL ——> GET /bundle.js 
+UDRX <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.4 ms)
+yRRL <—— 200 OK 2.25 MB application/javascript; charset=UTF-8 (<—> 110.4 ms)
+ynAY ——> GET /earth.jpg 
+ynAY <—— 200 OK 26.65 MB image/jpeg (<—> 3457.2 ms)
+Tbld ——> GET /favicon.ico 
+Tbld <—— 200 OK 14.01 KB image/x-icon (<—> 16.1 ms)
+o1R1 ——> GET /style.css 
+o1R1 <—— 304 Not Modified (<—> 0.9 ms)
+REZ7 ——> GET /bundle.js.map 
+REZ7 <—— 200 OK 2.67 MB application/json; charset=UTF-8 (<—> 110.8 ms)
+ojFs ——> GET / 
+ojFs <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.3 ms)
+5IA9 ——> GET /style.css 
+oV78 ——> GET /bundle.js 
+5IA9 <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.5 ms)
+oV78 <—— 200 OK 2.25 MB application/javascript; charset=UTF-8 (<—> 108.4 ms)
+LIAT ——> GET /bundle.js.map 
+LIAT <—— 200 OK 2.67 MB application/json; charset=UTF-8 (<—> 6.3 ms)
+Uy2M ——> GET /earth.jpg 
+Uy2M <—— 200 OK 26.65 MB image/jpeg (<—> 4806.5 ms)
+5Xee ——> GET /favicon.ico 
+5Xee <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+V2kd ——> GET / 
+V2kd <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+gHkI ——> GET /style.css 
+lUVQ ——> GET /bundle.js 
+gHkI <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.3 ms)
+lUVQ <—— 200 OK 2.25 MB application/javascript; charset=UTF-8 (<—> 109.2 ms)
+qQTw ——> GET /bundle.js.map 
+qQTw <—— 200 OK 2.67 MB application/json; charset=UTF-8 (<—> 6.0 ms)
+BDkg ——> GET /earth.jpg 
+BDkg <—— 200 OK 26.65 MB image/jpeg (<—> 5357.2 ms)
+8J5g ——> GET /favicon.ico 
+8J5g <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: fece15ad9b7c6e9aea4d
+Version: webpack 3.12.0
+Time: 1048ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.98 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 160 bytes {0} [built]
+    + 280 hidden modules
+
+ERROR in ENOENT: no such file or directory, scandir '/alexhontz/geography/public/countries'
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+Hash: 4a46e33a0a88d4e29c30
+Version: webpack 3.12.0
+Time: 203ms
+ 2 assets
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 160 bytes {0} [built]
+    + 280 hidden modules
+Hash: 122b938d23ac1c52874c
+Version: webpack 3.12.0
+Time: 1128ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.98 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 160 bytes {0} [built]
+    + 280 hidden modules
+Hash: 24c54e64daff66f8d123
+Version: webpack 3.12.0
+Time: 1291ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [512] ./public/countries.geojson 189 bytes {0} [built] [failed] [1 error]
+    + 280 hidden modules
+
+ERROR in ./public/countries.geojson
+Module parse failed: Unexpected token (2:6)
+You may need an appropriate loader to handle this file type.
+| {
+| "type": "FeatureCollection",
+| 
+| "features": [
+ @ ./app/components/Root.jsx 12:16-57
+ @ ./app/main.jsx
+Hash: 14cc4df01dc502b003e1
+Version: webpack 3.12.0
+Time: 1128ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [512] ./public/countries.geojson 189 bytes {0} [built] [failed] [1 error]
+    + 280 hidden modules
+
+ERROR in ./public/countries.geojson
+Module parse failed: Unexpected token (2:6)
+You may need an appropriate loader to handle this file type.
+| {
+| "type": "FeatureCollection",
+| 
+| "features": [
+ @ ./app/components/Root.jsx 11:16-57
+ @ ./app/main.jsx
+PK1Q ——> GET / 
+PK1Q <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+AO21 ——> GET /style.css 
+2q2i ——> GET /bundle.js 
+AO21 <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.2 ms)
+2q2i <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 669.6 ms)
+kJIE ——> GET /bundle.js.map 
+Nctg ——> GET /favicon.ico 
+Nctg <—— 200 OK 14.01 KB image/x-icon (<—> 0.8 ms)
+kJIE <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 256.7 ms)
+Hash: 9a77ec3b4a413f798e88
+Version: webpack 3.12.0
+Time: 1344ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [512] ./public/countries.geojson 189 bytes {0} [built] [failed] [1 error]
+    + 280 hidden modules
+
+ERROR in ./public/countries.geojson
+Module parse failed: Unexpected token (2:6)
+You may need an appropriate loader to handle this file type.
+| {
+| "type": "FeatureCollection",
+| 
+| "features": [
+ @ ./app/components/Root.jsx 11:16-57
+ @ ./app/main.jsx
+Z267 ——> GET / 
+Z267 <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.6 ms)
+rufY ——> GET /bundle.js 
+kza5 ——> GET /style.css 
+kza5 <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.1 ms)
+rufY <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 237.0 ms)
+2IJp ——> GET /bundle.js.map 
+ZiLW ——> GET /favicon.ico 
+ZiLW <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+2IJp <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 89.8 ms)
+Hash: 7ea531847f9b3b759f21
+Version: webpack 3.12.0
+Time: 1321ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [512] ./public/countries.geojson 189 bytes {0} [built] [failed] [1 error]
+    + 280 hidden modules
+
+ERROR in ./public/countries.geojson
+Module parse failed: Unexpected token (2:6)
+You may need an appropriate loader to handle this file type.
+| {
+| "type": "FeatureCollection",
+| 
+| "features": [
+ @ ./app/components/Root.jsx 11:16-57
+ @ ./app/main.jsx
+8438 ——> GET / 
+8438 <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.0 ms)
+IEkB ——> GET /style.css 
+IEkB <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.0 ms)
+XK9l ——> GET /bundle.js 
+XK9l <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 325.5 ms)
+zWWh ——> GET /bundle.js.map 
+vSUg ——> GET /favicon.ico 
+vSUg <—— 200 OK 14.01 KB image/x-icon (<—> 1.5 ms)
+zWWh <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 256.3 ms)
+Hash: 418f39d04f9d67ff544c
+Version: webpack 3.12.0
+Time: 1297ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [512] ./public/countries.geojson 189 bytes {0} [built] [failed] [1 error]
+    + 280 hidden modules
+
+ERROR in ./public/countries.geojson
+Module parse failed: Unexpected token (2:6)
+You may need an appropriate loader to handle this file type.
+| {
+| "type": "FeatureCollection",
+| 
+| "features": [
+ @ ./app/components/Root.jsx 11:16-57
+ @ ./app/main.jsx
+pNNE ——> GET / 
+pNNE <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.0 ms)
+4iUE ——> GET /style.css 
+4iUE <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 3.3 ms)
+GtIV ——> GET /bundle.js 
+GtIV <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 129.5 ms)
+vWP3 ——> GET /bundle.js.map 
+EJUF ——> GET /favicon.ico 
+EJUF <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+vWP3 <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 50.3 ms)
+Hash: 7747fb5c1e243b555c66
+Version: webpack 3.12.0
+Time: 1077ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [512] ./public/countries.geojson 135 bytes {0} [built] [failed] [1 error]
+    + 280 hidden modules
+
+ERROR in ./public/countries.geojson
+Module build failed: Error: ENOENT: no such file or directory, open '/alexhontz/geography/public/countries.geojson'
+ @ ./app/components/Root.jsx 11:16-57
+ @ ./app/main.jsx
+Isx7 ——> GET / 
+Isx7 <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+JalV ——> GET /bundle.js 
+5hm1 ——> GET /style.css 
+5hm1 <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.2 ms)
+JalV <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 128.2 ms)
+ANjk ——> GET /bundle.js.map 
+tCYL ——> GET /favicon.ico 
+tCYL <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+ANjk <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 49.5 ms)
+Hash: 9d796bbce32875666242
+Version: webpack 3.12.0
+Time: 11275ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  23.4 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  23.8 MB       0  [emitted]         main
+ [513] ./public/countries.geo.json 21.4 MB {0} [built]
+    + 280 hidden modules
+Hash: f14001011680dde599be
+Version: webpack 3.12.0
+Time: 2609ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  23.4 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  23.8 MB       0  [emitted]         main
+   281 modules
+Hash: 4fe0c59710f3340d8ee6
+Version: webpack 3.12.0
+Time: 1161ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.38 MB       0  [emitted]         main
+ [514] ./public/country.geo.json 1.68 kB {0} [built]
+    + 280 hidden modules
+AD8v ——> GET / 
+AD8v <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.1 ms)
+3UM0 ——> GET /bundle.js 
+DmR7 ——> GET /style.css 
+DmR7 <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.3 ms)
+3UM0 <—— 200 OK 1.9 MB application/javascript; charset=UTF-8 (<—> 111.0 ms)
+57mQ ——> GET /bundle.js.map 
+57mQ <—— 200 OK 2.27 MB application/json; charset=UTF-8 (<—> 4.7 ms)
+VEjX ——> GET /earth.jpg 
+VEjX <—— 200 OK 26.65 MB image/jpeg (<—> 3654.6 ms)
+FBNi ——> GET /favicon.ico 
+FBNi <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: f14001011680dde599be
+Version: webpack 3.12.0
+Time: 2654ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  23.4 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  23.8 MB       0  [emitted]         main
+   281 modules
+OgOw ——> GET / 
+OgOw <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+iGfJ ——> GET /style.css 
+2fhG ——> GET /bundle.js 
+iGfJ <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 2.0 ms)
+2fhG <—— 200 OK 22.28 MB application/javascript; charset=UTF-8 (<—> 2695.6 ms)
+zJXT ——> GET /bundle.js.map 
+yu78 ——> GET /earth.jpg 
+zJXT <—— 200 OK 22.66 MB application/json; charset=UTF-8 (<—> 4294.7 ms)
+yu78 <—— 200 OK 26.65 MB image/jpeg (<—> 6647.4 ms)
+3ALI ——> GET /favicon.ico 
+3ALI <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+nh9j ——> GET / 
+nh9j <—— 304 Not Modified (<—> 1.5 ms)
+A3gq ——> GET /style.css 
+XfmE ——> GET /bundle.js 
+A3gq <—— 304 Not Modified (<—> 0.8 ms)
+XfmE <—— 200 OK 22.28 MB application/javascript; charset=UTF-8 (<—> 2651.3 ms)
+qUKJ ——> GET /earth.jpg 
+PO1Z ——> GET / 
+PO1Z <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.9 ms)
+qUKJ <—— 200 OK 26.65 MB image/jpeg (<—> 3319.7 ms)
+Hash: 81d1f59fce425a53e9fe
+Version: webpack 3.12.0
+Time: 2481ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  23.4 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  23.8 MB       0  [emitted]         main
+   281 modules
+Osx7 ——> GET / 
+Osx7 <—— 304 Not Modified (<—> 0.5 ms)
+9QiO ——> GET /style.css 
+xiBg ——> GET /bundle.js 
+9QiO <—— 304 Not Modified (<—> 0.8 ms)
+xiBg <—— 200 OK 22.28 MB application/javascript; charset=UTF-8 (<—> 2767.1 ms)
+ovCC ——> GET /earth.jpg 
+ovCC <—— 304 Not Modified (<—> 0.6 ms)
+ciPt ——> GET /favicon.ico 
+ciPt <—— 200 OK 14.01 KB image/x-icon (<—> 2.5 ms)
+v6Dg ——> GET / 
+v6Dg <—— 304 Not Modified (<—> 0.5 ms)
+2f1d ——> GET /bundle.js 
+XACU ——> GET /style.css 
+2f1d <—— 304 Not Modified (<—> 0.8 ms)
+XACU <—— 304 Not Modified (<—> 0.7 ms)
+Hash: 122c32d3ed8ef582c5a4
+Version: webpack 3.12.0
+Time: 2436ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  23.4 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  23.8 MB       0  [emitted]         main
+   281 modules
+XpTQ ——> GET /earth.jpg 
+XpTQ <—— 304 Not Modified (<—> 0.6 ms)
+oaLV ——> GET /favicon.ico 
+oaLV <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+2AD2 ——> GET / 
+2AD2 <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+n8fv ——> GET / 
+n8fv <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.4 ms)
+iFFv ——> GET / 
+iFFv <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+xCx3 ——> GET / 
+xCx3 <—— 304 Not Modified (<—> 0.5 ms)
+HpPb ——> GET /style.css 
+HpPb <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 0.9 ms)
+jFKi ——> GET /bundle.js 
+i52P ——> GET /style.css 
+i52P <—— 304 Not Modified (<—> 0.4 ms)
+xkzn ——> GET /bundle.js 
+xkzn <—— 304 Not Modified (<—> 0.5 ms)
+jFKi <—— 200 OK 22.28 MB application/javascript; charset=UTF-8 (<—> 48854.3 ms)
+QcN0 ——> GET /earth.jpg 
+4IGI ——> GET /earth.jpg 
+4IGI <—— 304 Not Modified (<—> 0.7 ms)
+QcN0 <—— 200 OK 26.65 MB image/jpeg (<—> 53905.0 ms)
+6dTl ——> GET /favicon.ico 
+6dTl <—— 200 OK 14.01 KB image/x-icon (<—> 1.3 ms)
+iCvb ——> GET /favicon.ico 
+iCvb <—— 304 Not Modified (<—> 0.6 ms)
+HqXi ——> GET / 
+HqXi <—— 304 Not Modified (<—> 0.9 ms)
+HncP ——> GET /bundle.js 
+2L7b ——> GET /style.css 
+2L7b <—— 304 Not Modified (<—> 0.6 ms)
+HncP <—— 200 OK 22.28 MB application/javascript; charset=UTF-8 (<—> 2709.8 ms)
+M5if ——> GET /earth.jpg 
+M5if <—— 200 OK 26.65 MB image/jpeg (<—> 3329.7 ms)
+umEE ——> GET /bundle.js.map 
+05Dg ——> GET /style.css 
+05Dg <—— 304 Not Modified (<—> 3.9 ms)
+umEE <—— 200 OK 22.66 MB application/json; charset=UTF-8 (<—> 2906.0 ms)
+V86J ——> GET / 
+V86J <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.1 ms)
+pHaf ——> GET /style.css 
+pHaf <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.1 ms)
+3UXx ——> GET /bundle.js 
+3UXx <—— 200 OK 22.28 MB application/javascript; charset=UTF-8 (<—> 2934.5 ms)
+b3E3 ——> GET /bundle.js.map 
+WmEu ——> GET /earth.jpg 
+b3E3 <—— 200 OK 22.66 MB application/json; charset=UTF-8 (<—> 6007.4 ms)
+WmEu <—— 200 OK 26.65 MB image/jpeg (<—> 6440.8 ms)
+GOfq ——> GET /favicon.ico 
+GOfq <—— 200 OK 14.01 KB image/x-icon (<—> 1.4 ms)
+Hash: 30e514c6e329f09dd6d9
+Version: webpack 3.12.0
+Time: 900ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.99 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+ [513] ./public/countries.geo.json 136 bytes {0} [built] [failed] [1 error]
+    + 280 hidden modules
+
+ERROR in ./public/countries.geo.json
+Module build failed: Error: ENOENT: no such file or directory, open '/alexhontz/geography/public/countries.geo.json'
+ @ ./app/components/Root.jsx 10:16-58
+ @ ./app/main.jsx
+Hash: a0494a6a0d9643045e7b
+Version: webpack 3.12.0
+Time: 341ms
+                 Asset    Size  Chunks                    Chunk Names
+    ./public/bundle.js  745 kB       0  [emitted]  [big]  main
+./public/bundle.js.map  908 kB       0  [emitted]         main
+   188 modules
+
+ERROR in ./app/components/Root.jsx
+Module build failed: SyntaxError: Unexpected token, expected ; (5:8)
+
+  3 | const d3 = require('d3-geo');
+  4 | var countries = {};
+> 5 | for(int i = 0; i < 178; i++) countries[i] = require("../../public/countries.geo.json");
+    |         ^
+  6 | 
+  7 | //export stateless React component
+  8 | export default function Root() {
+
+ @ ./app/main.jsx 9:12-40
+4ZsZ ——> GET / 
+4ZsZ <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+iPjB ——> GET /style.css 
+iPjB <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.0 ms)
+q8cC ——> GET /bundle.js 
+q8cC <—— 200 OK 727.64 KB application/javascript; charset=UTF-8 (<—> 82.0 ms)
+7b6o ——> GET /bundle.js.map 
+7b6o <—— 200 OK 886.74 KB application/json; charset=UTF-8 (<—> 2.7 ms)
+t0I6 ——> GET /favicon.ico 
+t0I6 <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+dOi6 ——> GET / 
+dOi6 <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+4hg6 ——> GET /style.css 
+bAZI ——> GET /bundle.js 
+4hg6 <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.3 ms)
+bAZI <—— 200 OK 727.64 KB application/javascript; charset=UTF-8 (<—> 78.7 ms)
+6uTl ——> GET /bundle.js.map 
+6uTl <—— 200 OK 886.74 KB application/json; charset=UTF-8 (<—> 2.8 ms)
+t1mN ——> GET /favicon.ico 
+t1mN <—— 200 OK 14.01 KB image/x-icon (<—> 2.4 ms)
+Hash: fcb08ec809297f0e8d93
+Version: webpack 3.12.0
+Time: 375ms
+                 Asset    Size  Chunks                    Chunk Names
+    ./public/bundle.js  745 kB       0  [emitted]  [big]  main
+./public/bundle.js.map  908 kB       0  [emitted]         main
+   188 modules
+
+ERROR in ./app/components/Root.jsx
+Module build failed: SyntaxError: Unexpected token, expected ; (5:8)
+
+  3 | const d3 = require('d3-geo');
+  4 | var countries = {};
+> 5 | for(int i = 1; i < 179; i++) countries[i] = require("../../public/world/"+i+".geo.json");
+    |         ^
+  6 | 
+  7 | //export stateless React component
+  8 | export default function Root() {
+
+ @ ./app/main.jsx 9:12-40
+fBKx ——> GET / 
+fBKx <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+z4ju ——> GET /bundle.js 
+KbSc ——> GET /style.css 
+KbSc <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 0.7 ms)
+z4ju <—— 200 OK 727.64 KB application/javascript; charset=UTF-8 (<—> 167.8 ms)
+SjIx ——> GET /bundle.js.map 
+efdf ——> GET /favicon.ico 
+efdf <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+SjIx <—— 200 OK 886.74 KB application/json; charset=UTF-8 (<—> 89.0 ms)
+sm3H ——> GET / 
+sm3H <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.0 ms)
+dZgX ——> GET /style.css 
+ENPG ——> GET /bundle.js 
+dZgX <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.4 ms)
+ENPG <—— 200 OK 727.64 KB application/javascript; charset=UTF-8 (<—> 69.1 ms)
+Lsiu ——> GET /bundle.js.map 
+Lsiu <—— 200 OK 886.74 KB application/json; charset=UTF-8 (<—> 2.7 ms)
+KkrY ——> GET /favicon.ico 
+KkrY <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 1a61756ac908f0552c03
+Version: webpack 3.12.0
+Time: 2383ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  1.98 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.37 MB       0  [emitted]         main
+   280 modules
+
+ERROR in ./app/components/Root.jsx
+Module not found: Error: Can't resolve '../../public/world' in '/alexhontz/geography/app/components'
+ @ ./app/components/Root.jsx 12:16-64
+ @ ./app/main.jsx
+Pe9L ——> GET / 
+Pe9L <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.1 ms)
+ef3Q ——> GET /style.css 
+rvhY ——> GET /bundle.js 
+ef3Q <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.5 ms)
+rvhY <—— 200 OK 1.89 MB application/javascript; charset=UTF-8 (<—> 118.5 ms)
+1gtN ——> GET /bundle.js.map 
+1gtN <—— 200 OK 2.26 MB application/json; charset=UTF-8 (<—> 7.3 ms)
+iSQh ——> GET /favicon.ico 
+iSQh <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 710da162039f68e4f6d3
+Version: webpack 3.12.0
+Time: 1421ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+ [495] ./public/countries/84.geo.json 421 bytes {0} [optional] [built]
+ [496] ./public/countries/85.geo.json 582 bytes {0} [optional] [built]
+ [497] ./public/countries/86.geo.json 1.66 kB {0} [optional] [built]
+ [498] ./public/countries/87.geo.json 2.6 kB {0} [optional] [built]
+ [499] ./public/countries/88.geo.json 883 bytes {0} [optional] [built]
+ [500] ./public/countries/89.geo.json 934 bytes {0} [optional] [built]
+ [501] ./public/countries/9.geo.json 5.92 kB {0} [optional] [built]
+ [502] ./public/countries/90.geo.json 555 bytes {0} [optional] [built]
+ [503] ./public/countries/91.geo.json 603 bytes {0} [optional] [built]
+ [504] ./public/countries/92.geo.json 364 bytes {0} [optional] [built]
+ [505] ./public/countries/93.geo.json 1.01 kB {0} [optional] [built]
+ [506] ./public/countries/94.geo.json 404 bytes {0} [optional] [built]
+ [507] ./public/countries/95.geo.json 738 bytes {0} [optional] [built]
+ [508] ./public/countries/96.geo.json 1.27 kB {0} [optional] [built]
+    + 444 hidden modules
+eM56 ——> GET / 
+eM56 <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.0 ms)
+7pMa ——> GET /bundle.js 
+sBBj ——> GET /style.css 
+sBBj <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.3 ms)
+7pMa <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 119.0 ms)
+5a5q ——> GET /bundle.js.map 
+5a5q <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.5 ms)
+tOj1 ——> GET /earth.jpg 
+tOj1 <—— 200 OK 26.65 MB image/jpeg (<—> 3879.7 ms)
+yH2h ——> GET /favicon.ico 
+yH2h <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: efde3b4613b3a8350165
+Version: webpack 3.12.0
+Time: 1219ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+QrnI ——> GET / 
+QrnI <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+6KVR ——> GET /style.css 
+YtOx ——> GET /bundle.js 
+6KVR <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.3 ms)
+YtOx <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 108.6 ms)
+c7Wa ——> GET /bundle.js.map 
+c7Wa <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 6.3 ms)
+u49v ——> GET /earth.jpg 
+u49v <—— 200 OK 26.65 MB image/jpeg (<—> 5661.4 ms)
+TKJB ——> GET /favicon.ico 
+TKJB <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 9d7311b5a244fdcfed1a
+Version: webpack 3.12.0
+Time: 1160ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+9HqR ——> GET / 
+9HqR <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.0 ms)
+aDh5 ——> GET /bundle.js 
+DugB ——> GET /style.css 
+DugB <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.1 ms)
+aDh5 <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.5 ms)
+xYTA ——> GET /bundle.js.map 
+xYTA <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.7 ms)
+R0LZ ——> GET /earth.jpg 
+R0LZ <—— 200 OK 26.65 MB image/jpeg (<—> 3949.2 ms)
+2UdE ——> GET /favicon.ico 
+2UdE <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+Hash: bb6f5aa759efe097f3a3
+Version: webpack 3.12.0
+Time: 1166ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+q686 ——> GET / 
+q686 <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+HJqo ——> GET /style.css 
+B5B9 ——> GET /bundle.js 
+HJqo <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 2.3 ms)
+B5B9 <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.4 ms)
+dKOL ——> GET /bundle.js.map 
+dKOL <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.3 ms)
+abeJ ——> GET /earth.jpg 
+abeJ <—— 200 OK 26.65 MB image/jpeg (<—> 3969.4 ms)
+zxrE ——> GET /favicon.ico 
+zxrE <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: 12a96f8db1dee0054697
+Version: webpack 3.12.0
+Time: 1115ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+A7BG ——> GET / 
+A7BG <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+y3l2 ——> GET /style.css 
+Ciom ——> GET /bundle.js 
+y3l2 <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.3 ms)
+Ciom <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 108.9 ms)
+3poS ——> GET /bundle.js.map 
+3poS <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.0 ms)
+x5Xr ——> GET /earth.jpg 
+x5Xr <—— 200 OK 26.65 MB image/jpeg (<—> 5583.1 ms)
+KlkH ——> GET /favicon.ico 
+KlkH <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 5311ed17cf70eed95eb5
+Version: webpack 3.12.0
+Time: 1100ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+on2X ——> GET / 
+on2X <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.1 ms)
+Zdro ——> GET /bundle.js 
+PLoH ——> GET /style.css 
+PLoH <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.2 ms)
+Zdro <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.7 ms)
+Ji7T ——> GET /bundle.js.map 
+Ji7T <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.1 ms)
+dTCV ——> GET /earth.jpg 
+dTCV <—— 200 OK 26.65 MB image/jpeg (<—> 3949.1 ms)
+DM9V ——> GET /favicon.ico 
+DM9V <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: 92ce092a26ed476efa58
+Version: webpack 3.12.0
+Time: 1171ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+jXHU ——> GET / 
+jXHU <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.8 ms)
+yJlF ——> GET /style.css 
+EZ4O ——> GET /bundle.js 
+yJlF <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.3 ms)
+EZ4O <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.5 ms)
+Yg6Y ——> GET /bundle.js.map 
+Yg6Y <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.0 ms)
+aP28 ——> GET /earth.jpg 
+aP28 <—— 200 OK 26.65 MB image/jpeg (<—> 3959.1 ms)
+cVH1 ——> GET /favicon.ico 
+cVH1 <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: d13c0ae72eb960b74b2b
+Version: webpack 3.12.0
+Time: 342ms
+                 Asset    Size  Chunks                    Chunk Names
+    ./public/bundle.js  745 kB       0  [emitted]  [big]  main
+./public/bundle.js.map  908 kB       0  [emitted]         main
+   188 modules
+
+ERROR in ./app/components/Root.jsx
+Module build failed: SyntaxError: Unexpected token, expected ; (7:8)
+
+   5 | for(var i = 1; i < 179; i++) countries[i-1] = require("../../public/countries/"+i+".geo.json");
+   6 | 
+>  7 | for(int i in countries) console.log(countries[i].features[0].properties.name);
+     |         ^
+   8 | 
+   9 | //export stateless React component
+  10 | export default function Root() {
+
+ @ ./app/main.jsx 9:12-40
+6QNx ——> GET / 
+6QNx <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.1 ms)
+J70b ——> GET /bundle.js 
+ixTp ——> GET /style.css 
+ixTp <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.2 ms)
+J70b <—— 200 OK 727.69 KB application/javascript; charset=UTF-8 (<—> 78.9 ms)
+FU0J ——> GET /bundle.js.map 
+FU0J <—— 200 OK 886.74 KB application/json; charset=UTF-8 (<—> 2.7 ms)
+nTzb ——> GET /favicon.ico 
+nTzb <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+eKnq ——> GET / 
+eKnq <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+rbpD ——> GET /bundle.js 
+SCjb ——> GET /style.css 
+SCjb <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.1 ms)
+rbpD <—— 200 OK 727.69 KB application/javascript; charset=UTF-8 (<—> 79.2 ms)
+VML0 ——> GET /bundle.js.map 
+VML0 <—— 200 OK 886.74 KB application/json; charset=UTF-8 (<—> 2.8 ms)
+eIlY ——> GET /favicon.ico 
+eIlY <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: 720e05c105e1df683367
+Version: webpack 3.12.0
+Time: 2402ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+ [495] ./public/countries/84.geo.json 421 bytes {0} [optional] [built]
+ [496] ./public/countries/85.geo.json 582 bytes {0} [optional] [built]
+ [497] ./public/countries/86.geo.json 1.66 kB {0} [optional] [built]
+ [498] ./public/countries/87.geo.json 2.6 kB {0} [optional] [built]
+ [499] ./public/countries/88.geo.json 883 bytes {0} [optional] [built]
+ [500] ./public/countries/89.geo.json 934 bytes {0} [optional] [built]
+ [501] ./public/countries/9.geo.json 5.92 kB {0} [optional] [built]
+ [502] ./public/countries/90.geo.json 555 bytes {0} [optional] [built]
+ [503] ./public/countries/91.geo.json 603 bytes {0} [optional] [built]
+ [504] ./public/countries/92.geo.json 364 bytes {0} [optional] [built]
+ [505] ./public/countries/93.geo.json 1.01 kB {0} [optional] [built]
+ [506] ./public/countries/94.geo.json 404 bytes {0} [optional] [built]
+ [507] ./public/countries/95.geo.json 738 bytes {0} [optional] [built]
+ [508] ./public/countries/96.geo.json 1.27 kB {0} [optional] [built]
+    + 444 hidden modules
+qWjm ——> GET / 
+qWjm <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.8 ms)
+PxLV ——> GET /bundle.js 
+YTwA ——> GET /style.css 
+YTwA <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.2 ms)
+PxLV <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 4.9 ms)
+QbyD ——> GET /bundle.js.map 
+QbyD <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 6.1 ms)
+uxle ——> GET /earth.jpg 
+uxle <—— 200 OK 26.65 MB image/jpeg (<—> 3871.4 ms)
+7ZEZ ——> GET /favicon.ico 
+7ZEZ <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: fe89932058daeacf38e7
+Version: webpack 3.12.0
+Time: 11669ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  23.8 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  24.4 MB       0  [emitted]         main
+ [516] ./public/geojson ^\.\/.*\.geo\.json$ 4.92 kB {0} [built]
+ [755] ./public/geojson/83.geo.json 22.2 kB {0} [optional] [built]
+ [756] ./public/geojson/84.geo.json 4.29 kB {0} [optional] [built]
+ [757] ./public/geojson/85.geo.json 33.7 kB {0} [optional] [built]
+ [758] ./public/geojson/86.geo.json 2.28 kB {0} [optional] [built]
+ [759] ./public/geojson/87.geo.json 66.5 kB {0} [optional] [built]
+ [760] ./public/geojson/88.geo.json 18.4 kB {0} [optional] [built]
+ [761] ./public/geojson/89.geo.json 54.2 kB {0} [optional] [built]
+ [762] ./public/geojson/9.geo.json 191 kB {0} [optional] [built]
+ [763] ./public/geojson/90.geo.json 11.7 kB {0} [optional] [built]
+ [764] ./public/geojson/91.geo.json 239 kB {0} [optional] [built]
+ [765] ./public/geojson/92.geo.json 4.47 kB {0} [optional] [built]
+ [766] ./public/geojson/93.geo.json 793 kB {0} [optional] [built]
+ [767] ./public/geojson/94.geo.json 20 kB {0} [optional] [built]
+ [768] ./public/geojson/95.geo.json 3.66 kB {0} [optional] [built]
+    + 522 hidden modules
+
+WARNING in ./public/geojson/191.geo.json
+Module build failed: SyntaxError: Unexpected token # in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/geojson ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+Hash: 4fb81182d537487fb531
+Version: webpack 3.12.0
+Time: 2878ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  23.8 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  24.4 MB       0  [emitted]         main
+ [516] ./public/geojson ^\.\/.*\.geo\.json$ 4.92 kB {0} [built]
+ [619] ./public/geojson/191.geo.json 219 bytes {0} [optional] [built] [failed] [1 error]
+    + 535 hidden modules
+
+WARNING in ./public/geojson/191.geo.json
+Module build failed: SyntaxError: Unexpected token # in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/geojson ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+Hash: 196967955ff73a30faaf
+Version: webpack 3.12.0
+Time: 2794ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  23.8 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  24.4 MB       0  [emitted]         main
+ [516] ./public/geojson ^\.\/.*\.geo\.json$ 4.92 kB {0} [built]
+ [619] ./public/geojson/191.geo.json 219 bytes {0} [optional] [built] [failed] [1 error]
+    + 535 hidden modules
+
+WARNING in ./public/geojson/191.geo.json
+Module build failed: SyntaxError: Unexpected token # in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/geojson ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+FHEZ ——> GET /bundle.js.map 
+OcqS ——> GET /style.css 
+OcqS <—— 304 Not Modified (<—> 0.6 ms)
+FHEZ <—— 200 OK 23.22 MB application/json; charset=UTF-8 (<—> 3014.5 ms)
+d0Ut ——> GET / 
+d0Ut <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 0.9 ms)
+Cseo ——> GET /style.css 
+iTfV ——> GET /bundle.js 
+Cseo <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.4 ms)
+iTfV <—— 200 OK 22.74 MB application/javascript; charset=UTF-8 (<—> 2768.8 ms)
+ZRgQ ——> GET /bundle.js.map 
+7f5M ——> GET /favicon.ico 
+7f5M <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+ZRgQ <—— 200 OK 23.22 MB application/json; charset=UTF-8 (<—> 3072.1 ms)
+ED66 ——> GET / 
+ED66 <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.0 ms)
+K4Bd ——> GET /style.css 
+9hyt ——> GET /bundle.js 
+K4Bd <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.5 ms)
+9hyt <—— 200 OK 22.74 MB application/javascript; charset=UTF-8 (<—> 2993.5 ms)
+oKvE ——> GET /bundle.js.map 
+E94E ——> GET /favicon.ico 
+E94E <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+oKvE <—— 200 OK 23.22 MB application/json; charset=UTF-8 (<—> 3099.8 ms)
+T1YW ——> GET / 
+T1YW <—— 200 OK 272 B text/html; charset=UTF-8 (<—> 1.2 ms)
+L9bc ——> GET /style.css 
+tQH6 ——> GET /bundle.js 
+L9bc <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.4 ms)
+tQH6 <—— 200 OK 22.74 MB application/javascript; charset=UTF-8 (<—> 2797.1 ms)
+Seme ——> GET /style.css 
+Seme <—— 304 Not Modified (<—> 0.6 ms)
+7dlm ——> GET /bundle.js.map 
+7dlm <—— 200 OK 23.22 MB application/json; charset=UTF-8 (<—> 2828.3 ms)
+Hash: e9f6f5f35bb7c5e790ec
+Version: webpack 3.12.0
+Time: 1298ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+ [495] ./public/countries/84.geo.json 421 bytes {0} [optional] [built]
+ [496] ./public/countries/85.geo.json 582 bytes {0} [optional] [built]
+ [497] ./public/countries/86.geo.json 1.66 kB {0} [optional] [built]
+ [498] ./public/countries/87.geo.json 2.6 kB {0} [optional] [built]
+ [499] ./public/countries/88.geo.json 883 bytes {0} [optional] [built]
+ [500] ./public/countries/89.geo.json 934 bytes {0} [optional] [built]
+ [501] ./public/countries/9.geo.json 5.92 kB {0} [optional] [built]
+ [502] ./public/countries/90.geo.json 555 bytes {0} [optional] [built]
+ [503] ./public/countries/91.geo.json 603 bytes {0} [optional] [built]
+ [504] ./public/countries/92.geo.json 364 bytes {0} [optional] [built]
+ [505] ./public/countries/93.geo.json 1.01 kB {0} [optional] [built]
+ [506] ./public/countries/94.geo.json 404 bytes {0} [optional] [built]
+ [507] ./public/countries/95.geo.json 738 bytes {0} [optional] [built]
+ [508] ./public/countries/96.geo.json 1.27 kB {0} [optional] [built]
+    + 444 hidden modules
+Hash: 5e99fdb859f04906c423
+Version: webpack 3.12.0
+Time: 1054ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+80j0 ——> GET / 
+80j0 <—— 200 OK 290 B text/html; charset=UTF-8 (<—> 0.8 ms)
+A7ou ——> GET /bundle.js 
+USHI ——> GET /style.css 
+USHI <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.1 ms)
+A7ou <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 109.3 ms)
+Y9bk ——> GET /bundle.js.map 
+Y9bk <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.0 ms)
+ybJ7 ——> GET /earth.jpg 
+ybJ7 <—— 200 OK 26.65 MB image/jpeg (<—> 3742.4 ms)
+6yKi ——> GET /favicon.ico 
+6yKi <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+VGZ5 ——> GET / 
+VGZ5 <—— 304 Not Modified (<—> 0.7 ms)
+Sc5d ——> GET /bundle.js 
+X17F ——> GET /style.css 
+Sc5d <—— 304 Not Modified (<—> 0.9 ms)
+X17F <—— 304 Not Modified (<—> 0.7 ms)
+mHa5 ——> GET /earth.jpg 
+mHa5 <—— 304 Not Modified (<—> 0.6 ms)
+cuHJ ——> GET /favicon.ico 
+cuHJ <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+03ML ——> GET / 
+03ML <—— 200 OK 297 B text/html; charset=UTF-8 (<—> 1.0 ms)
+U5Lt ——> GET /style.css 
+MPev ——> GET /bundle.js 
+U5Lt <—— 304 Not Modified (<—> 1.1 ms)
+MPev <—— 304 Not Modified (<—> 0.7 ms)
+nPcy ——> GET /earth.jpg 
+nPcy <—— 304 Not Modified (<—> 0.6 ms)
+h5NW ——> GET /favicon.ico 
+h5NW <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+IvGa ——> GET / 
+IvGa <—— 200 OK 299 B text/html; charset=UTF-8 (<—> 1.0 ms)
+qZlX ——> GET /style.css 
+uANf ——> GET /bundle.js 
+qZlX <—— 304 Not Modified (<—> 0.9 ms)
+uANf <—— 304 Not Modified (<—> 0.7 ms)
+eYhS ——> GET /earth.jpg 
+eYhS <—— 304 Not Modified (<—> 0.5 ms)
+ZDn5 ——> GET /favicon.ico 
+ZDn5 <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+UOtq ——> GET /style.css 
+UOtq <—— 304 Not Modified (<—> 0.5 ms)
+UbPJ ——> GET /bundle.js.map 
+UbPJ <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 109.6 ms)
+Hash: 01aea2de4bc54de9671c
+Version: webpack 3.12.0
+Time: 974ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+sPHu ——> GET / 
+sPHu <—— 200 OK 299 B text/html; charset=UTF-8 (<—> 0.8 ms)
+gakT ——> GET /style.css 
+JaDN ——> GET /bundle.js 
+gakT <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.3 ms)
+JaDN <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 108.7 ms)
+1O2c ——> GET /earth.jpg 
+JDwT ——> GET /bundle.js.map 
+JDwT <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 1782.2 ms)
+1O2c <—— 200 OK 26.65 MB image/jpeg (<—> 3722.7 ms)
+mMNk ——> GET /favicon.ico 
+mMNk <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: cb93e339e4fa5b3d3dbb
+Version: webpack 3.12.0
+Time: 1003ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+2N4c ——> GET / 
+2N4c <—— 200 OK 263 B text/html; charset=UTF-8 (<—> 0.9 ms)
+iMSO ——> GET /bundle.js 
+sWun ——> GET /style.css 
+sWun <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.1 ms)
+iMSO <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.8 ms)
+KA3b ——> GET /bundle.js.map 
+KA3b <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.1 ms)
+BcNr ——> GET /earth.jpg 
+BcNr <—— 200 OK 26.65 MB image/jpeg (<—> 3761.9 ms)
+CQXf ——> GET /favicon.ico 
+CQXf <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+DkOQ ——> GET / 
+DkOQ <—— 200 OK 266 B text/html; charset=UTF-8 (<—> 0.9 ms)
+1DRW ——> GET /bundle.js 
+2jt1 ——> GET /style.css 
+2jt1 <—— 200 OK 106 B text/css; charset=UTF-8 (<—> 1.1 ms)
+1DRW <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 108.8 ms)
+hGI9 ——> GET /bundle.js.map 
+hGI9 <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 19.9 ms)
+PXOH ——> GET /earth.jpg 
+PXOH <—— 200 OK 26.65 MB image/jpeg (<—> 3773.3 ms)
+qJWf ——> GET /favicon.ico 
+qJWf <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 134cfb0b3f23e7d2354e
+Version: webpack 3.12.0
+Time: 994ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+Hash: 25a5563a1d33d673186a
+Version: webpack 3.12.0
+Time: 1027ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+Hash: f632d349cb495c6cd843
+Version: webpack 3.12.0
+Time: 997ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+wVXK ——> GET / 
+wVXK <—— 200 OK 266 B text/html; charset=UTF-8 (<—> 0.8 ms)
+BjB8 ——> GET /style.css 
+LB3E ——> GET /bundle.js 
+BjB8 <—— 200 OK 101 B text/css; charset=UTF-8 (<—> 1.4 ms)
+LB3E <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 119.1 ms)
+pXyI ——> GET /bundle.js.map 
+pXyI <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.5 ms)
+pAix ——> GET /earth.jpg 
+pAix <—— 200 OK 26.65 MB image/jpeg (<—> 5602.7 ms)
+qwmr ——> GET /favicon.ico 
+qwmr <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: 135209216dc13a2d890f
+Version: webpack 3.12.0
+Time: 1103ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+vPmi ——> GET / 
+vPmi <—— 200 OK 266 B text/html; charset=UTF-8 (<—> 0.8 ms)
+jM2e ——> GET /style.css 
+PZk5 ——> GET /bundle.js 
+jM2e <—— 200 OK 101 B text/css; charset=UTF-8 (<—> 2.0 ms)
+PZk5 <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 117.7 ms)
+Orjm ——> GET /bundle.js.map 
+Orjm <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.2 ms)
+WIuC ——> GET /earth.jpg 
+WIuC <—— 200 OK 26.65 MB image/jpeg (<—> 3791.3 ms)
+7Tb6 ——> GET /favicon.ico 
+7Tb6 <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: a221033779c14ae1f60d
+Version: webpack 3.12.0
+Time: 1015ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+mksd ——> GET / 
+mksd <—— 200 OK 266 B text/html; charset=UTF-8 (<—> 0.8 ms)
+OyHz ——> GET /bundle.js 
+q7pf ——> GET /style.css 
+q7pf <—— 200 OK 101 B text/css; charset=UTF-8 (<—> 1.1 ms)
+OyHz <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.5 ms)
+hjvc ——> GET /bundle.js.map 
+hjvc <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.6 ms)
+pRKI ——> GET /earth.jpg 
+pRKI <—— 200 OK 26.65 MB image/jpeg (<—> 3800.9 ms)
+iyh6 ——> GET /favicon.ico 
+iyh6 <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 22204d28226dc54a0e50
+Version: webpack 3.12.0
+Time: 1006ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+c1Cm ——> GET / 
+c1Cm <—— 200 OK 237 B text/html; charset=UTF-8 (<—> 0.9 ms)
+vsjn ——> GET /bundle.js 
+c9Vo ——> GET /style.css 
+c9Vo <—— 200 OK 99 B text/css; charset=UTF-8 (<—> 1.1 ms)
+vsjn <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.6 ms)
+hpRD ——> GET /bundle.js.map 
+hpRD <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 4.9 ms)
+jvst ——> GET /earth.jpg 
+jvst <—— 200 OK 26.65 MB image/jpeg (<—> 3801.1 ms)
+wgjy ——> GET /favicon.ico 
+wgjy <—— 200 OK 14.01 KB image/x-icon (<—> 2.0 ms)
+SXmL ——> GET /style.css 
+SXmL <—— 304 Not Modified (<—> 0.6 ms)
+nXYa ——> GET /bundle.js.map 
+nXYa <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 109.7 ms)
+9bGe ——> GET / 
+9bGe <—— 200 OK 233 B text/html; charset=UTF-8 (<—> 0.9 ms)
+pZ7k ——> GET /style.css 
+pZ7k <—— 200 OK 99 B text/css; charset=UTF-8 (<—> 0.9 ms)
+RTVF ——> GET /favicon.ico 
+RTVF <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+J6t2 ——> GET / 
+J6t2 <—— 200 OK 233 B text/html; charset=UTF-8 (<—> 1.0 ms)
+Qq33 ——> GET /style.css 
+Qq33 <—— 200 OK 99 B text/css; charset=UTF-8 (<—> 0.9 ms)
+q4PA ——> GET /favicon.ico 
+q4PA <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+mdIW ——> GET / 
+mdIW <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.9 ms)
+vBjm ——> GET /style.css 
+Jf65 ——> GET /bundle.js 
+vBjm <—— 200 OK 99 B text/css; charset=UTF-8 (<—> 1.3 ms)
+Jf65 <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 108.6 ms)
+jR3P ——> GET /bundle.js.map 
+jR3P <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.1 ms)
+mhU4 ——> GET /earth.jpg 
+mhU4 <—— 200 OK 26.65 MB image/jpeg (<—> 3674.2 ms)
+Smhw ——> GET /favicon.ico 
+Smhw <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 1d65ad25dfac05074d80
+Version: webpack 3.12.0
+Time: 1103ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+oP6W ——> GET / 
+oP6W <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.9 ms)
+xsJg ——> GET /bundle.js 
+okNL ——> GET /style.css 
+okNL <—— 200 OK 99 B text/css; charset=UTF-8 (<—> 1.1 ms)
+xsJg <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 110.9 ms)
+MbpA ——> GET /bundle.js.map 
+MbpA <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.1 ms)
+bcKz ——> GET /earth.jpg 
+bcKz <—— 200 OK 26.65 MB image/jpeg (<—> 4253.9 ms)
+oN0q ——> GET /favicon.ico 
+oN0q <—— 200 OK 14.01 KB image/x-icon (<—> 1.8 ms)
+Hash: dbb838251a3817469f96
+Version: webpack 3.12.0
+Time: 1000ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+BYAV ——> GET / 
+BYAV <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 1.0 ms)
+N6cu ——> GET /style.css 
+jb1A ——> GET /bundle.js 
+N6cu <—— 200 OK 99 B text/css; charset=UTF-8 (<—> 1.3 ms)
+jb1A <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 108.4 ms)
+EHOm ——> GET /bundle.js.map 
+EHOm <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 4.9 ms)
+6juz ——> GET /earth.jpg 
+6juz <—— 200 OK 26.65 MB image/jpeg (<—> 5445.2 ms)
+JX8K ——> GET /favicon.ico 
+JX8K <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+kHNk ——> GET / 
+kHNk <—— 200 OK 265 B text/html; charset=UTF-8 (<—> 1.0 ms)
+mqRa ——> GET /style.css 
+mqRa <—— 200 OK 99 B text/css; charset=UTF-8 (<—> 0.9 ms)
+C5M9 ——> GET /bundle.js 
+C5M9 <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 119.0 ms)
+SO75 ——> GET /bundle.js.map 
+SO75 <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 6.5 ms)
+JDS4 ——> GET /earth.jpg 
+JDS4 <—— 200 OK 26.65 MB image/jpeg (<—> 5484.4 ms)
+7E0h ——> GET /favicon.ico 
+7E0h <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+K9BT ——> GET / 
+K9BT <—— 200 OK 264 B text/html; charset=UTF-8 (<—> 1.0 ms)
+2UDB ——> GET /style.css 
+QZqr ——> GET /bundle.js 
+2UDB <—— 200 OK 99 B text/css; charset=UTF-8 (<—> 1.5 ms)
+QZqr <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 108.8 ms)
+Bts9 ——> GET /bundle.js.map 
+Bts9 <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 4.9 ms)
+DtdN ——> GET /earth.jpg 
+DtdN <—— 200 OK 26.65 MB image/jpeg (<—> 5258.2 ms)
+RPSE ——> GET /favicon.ico 
+RPSE <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+ssHA ——> GET / 
+ssHA <—— 200 OK 264 B text/html; charset=UTF-8 (<—> 0.9 ms)
+SCIO ——> GET /style.css 
+1yzw ——> GET /bundle.js 
+SCIO <—— 200 OK 99 B text/css; charset=UTF-8 (<—> 1.3 ms)
+1yzw <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 119.0 ms)
+SJxk ——> GET /bundle.js.map 
+SJxk <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.1 ms)
+wQ9M ——> GET /earth.jpg 
+wQ9M <—— 200 OK 26.65 MB image/jpeg (<—> 3987.9 ms)
+OMT1 ——> GET /favicon.ico 
+OMT1 <—— 200 OK 14.01 KB image/x-icon (<—> 2.0 ms)
+hX6A ——> GET / 
+hX6A <—— 200 OK 262 B text/html; charset=UTF-8 (<—> 1.0 ms)
+fl94 ——> GET /style.css 
+fl94 <—— 200 OK 70 B text/css; charset=UTF-8 (<—> 1.0 ms)
+6Jvh ——> GET /bundle.js 
+6Jvh <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 108.7 ms)
+D4GH ——> GET /bundle.js.map 
+D4GH <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.6 ms)
+Iocf ——> GET /earth.jpg 
+Iocf —X— connection closed before res end/flush
+Jrhx ——> GET / 
+Jrhx <—— 200 OK 262 B text/html; charset=UTF-8 (<—> 0.9 ms)
+nQpu ——> GET /style.css 
+Buxk ——> GET /bundle.js 
+nQpu <—— 200 OK 70 B text/css; charset=UTF-8 (<—> 1.3 ms)
+Buxk <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.0 ms)
+ft3C ——> GET /bundle.js.map 
+ft3C <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 19.8 ms)
+S3q0 ——> GET /earth.jpg 
+S3q0 <—— 200 OK 26.65 MB image/jpeg (<—> 5504.5 ms)
+qklV ——> GET /favicon.ico 
+qklV <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+94Aw ——> GET / 
+94Aw <—— 200 OK 262 B text/html; charset=UTF-8 (<—> 1.0 ms)
+Uo9M ——> GET /style.css 
+Uo9M <—— 200 OK 94 B text/css; charset=UTF-8 (<—> 1.0 ms)
+0f4p ——> GET /bundle.js 
+0f4p <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.4 ms)
+KvQT ——> GET /bundle.js.map 
+KvQT <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.3 ms)
+u2C0 ——> GET /earth.jpg 
+u2C0 <—— 200 OK 26.65 MB image/jpeg (<—> 5484.5 ms)
+3aJw ——> GET / 
+3aJw <—— 200 OK 262 B text/html; charset=UTF-8 (<—> 0.9 ms)
+UlWm ——> GET /style.css 
+7UPJ ——> GET /bundle.js 
+UlWm <—— 200 OK 94 B text/css; charset=UTF-8 (<—> 1.4 ms)
+7UPJ <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.3 ms)
+wflm ——> GET /bundle.js.map 
+wflm <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.1 ms)
+M96g ——> GET /earth.jpg 
+M96g <—— 200 OK 26.65 MB image/jpeg (<—> 5376.5 ms)
+OuZm ——> GET /favicon.ico 
+OuZm <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Vw6u ——> GET / 
+Vw6u <—— 200 OK 262 B text/html; charset=UTF-8 (<—> 0.9 ms)
+7JL9 ——> GET /bundle.js 
+yN1k ——> GET /style.css 
+yN1k <—— 200 OK 100 B text/css; charset=UTF-8 (<—> 1.1 ms)
+7JL9 <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.0 ms)
+dxgh ——> GET /bundle.js.map 
+dxgh <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.0 ms)
+nprb ——> GET /earth.jpg 
+nprb <—— 200 OK 26.65 MB image/jpeg (<—> 5376.2 ms)
+WRgO ——> GET /favicon.ico 
+WRgO <—— 200 OK 14.01 KB image/x-icon (<—> 1.2 ms)
+0UnY ——> GET / 
+0UnY <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.9 ms)
+LL7s ——> GET /bundle.js 
+Xq00 ——> GET /style.css 
+Xq00 <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 2.6 ms)
+LL7s <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 108.9 ms)
+syPp ——> GET /bundle.js.map 
+syPp <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 5.5 ms)
+yr3A ——> GET /earth.jpg 
+yr3A <—— 200 OK 26.65 MB image/jpeg (<—> 5130.2 ms)
+XBKB ——> GET /favicon.ico 
+XBKB <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+HIhr ——> GET /style.css 
+HIhr <—— 304 Not Modified (<—> 0.5 ms)
+yJQL ——> GET /bundle.js.map 
+yJQL <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 109.5 ms)
+Hash: 9c159d2c4542bacb998a
+Version: webpack 3.12.0
+Time: 1020ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+Hash: 04cad8cf4290e7fc88ac
+Version: webpack 3.12.0
+Time: 961ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+LMw9 ——> GET / 
+LMw9 <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.9 ms)
+vL0c ——> GET /style.css 
+EgnO ——> GET /bundle.js 
+vL0c <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 1.3 ms)
+EgnO <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.1 ms)
+I7rz ——> GET /bundle.js.map 
+I7rz <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 6.5 ms)
+tHGW ——> GET /earth.jpg 
+0sVc ——> GET /political.png 
+0sVc <—— 200 OK 96.71 KB image/png (<—> 1.0 ms)
+tHGW <—— 200 OK 26.65 MB image/jpeg (<—> 3840.0 ms)
+StcK ——> GET /favicon.ico 
+StcK <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: 705bf1b9d78411500749
+Version: webpack 3.12.0
+Time: 956ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+P14l ——> GET / 
+P14l <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.8 ms)
+8GLO ——> GET /style.css 
+fnnp ——> GET /bundle.js 
+8GLO <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 1.3 ms)
+fnnp <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 118.4 ms)
+O1ER ——> GET /bundle.js.map 
+O1ER <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 59.3 ms)
+qbAB ——> GET /earth_lights_lrg.jpg 
+XKCL ——> GET /earth.jpg 
+qbAB <—— 200 OK 534.44 KB image/jpeg (<—> 305.3 ms)
+XKCL <—— 200 OK 26.65 MB image/jpeg (<—> 3693.5 ms)
+m1fe ——> GET /favicon.ico 
+m1fe <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 30e84d38368f18c95f7a
+Version: webpack 3.12.0
+Time: 983ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.43 kB {0} [built]
+    + 458 hidden modules
+lz50 ——> GET / 
+lz50 <—— 304 Not Modified (<—> 0.6 ms)
+GEew ——> GET /style.css 
+SMcd ——> GET /bundle.js 
+GEew <—— 304 Not Modified (<—> 0.9 ms)
+SMcd <—— 200 OK 2.16 MB application/javascript; charset=UTF-8 (<—> 110.4 ms)
+DzQr ——> GET /earth.jpg 
+DzQr <—— 304 Not Modified (<—> 0.6 ms)
+3LHD ——> GET /favicon.ico 
+3LHD <—— 200 OK 14.01 KB image/x-icon (<—> 2.0 ms)
+WwpB ——> GET /style.css 
+WwpB <—— 304 Not Modified (<—> 0.7 ms)
+w4Fc ——> GET /bundle.js.map 
+w4Fc <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 128.8 ms)
+tOGe ——> GET /bundle.js.map 
+tOGe <—— 200 OK 2.57 MB application/json; charset=UTF-8 (<—> 119.8 ms)
+Hash: 235045eaeed37018261e
+Version: webpack 3.12.0
+Time: 968ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.45 kB {0} [built]
+ [421] ./public/countries/179.geo.json 207 bytes {0} [optional] [built] [failed] [1 error]
+    + 458 hidden modules
+
+WARNING in ./public/countries/179.geo.json
+Module build failed: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/countries ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+Hash: 70fb9fcf9a773d7316e0
+Version: webpack 3.12.0
+Time: 887ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.45 kB {0} [built]
+ [421] ./public/countries/179.geo.json 520 bytes {0} [optional] [built]
+    + 458 hidden modules
+Hash: c01c12932c0c43116bf9
+Version: webpack 3.12.0
+Time: 915ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.47 kB {0} [built]
+ [773] ./public/countries/180.geo.json 332 bytes {0} [optional] [built]
+    + 459 hidden modules
+Hash: 17d396b84e25d1888da9
+Version: webpack 3.12.0
+Time: 915ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.69 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.49 kB {0} [built]
+ [774] ./public/countries/181.geo.json 495 bytes {0} [optional] [built]
+    + 460 hidden modules
+Hash: d9cbdaf9949f1948436c
+Version: webpack 3.12.0
+Time: 943ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.51 kB {0} [built]
+ [775] ./public/countries/182.geo.json 591 bytes {0} [optional] [built]
+    + 461 hidden modules
+Hash: 971961b334b3f0516873
+Version: webpack 3.12.0
+Time: 879ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.53 kB {0} [built]
+ [776] ./public/countries/183.geo.json 424 bytes {0} [optional] [built]
+    + 462 hidden modules
+Hash: f7f88084f73f766cf019
+Version: webpack 3.12.0
+Time: 910ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.55 kB {0} [built]
+ [777] ./public/countries/184.geo.json 379 bytes {0} [optional] [built]
+    + 463 hidden modules
+Hash: b8ca3165d610b4be2b12
+Version: webpack 3.12.0
+Time: 995ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.57 kB {0} [built]
+ [778] ./public/countries/185.geo.json 346 bytes {0} [optional] [built]
+    + 464 hidden modules
+Hash: 4638c7cdb3b5e225fec1
+Version: webpack 3.12.0
+Time: 924ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.59 kB {0} [built]
+ [779] ./public/countries/186.geo.json 347 bytes {0} [optional] [built]
+    + 465 hidden modules
+Hash: dc2dae0bd788a2878bc4
+Version: webpack 3.12.0
+Time: 920ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.6 kB {0} [built]
+ [780] ./public/countries/187.geo.json 381 bytes {0} [optional] [built]
+    + 466 hidden modules
+Hash: 0c3d30b90c3eae9e5099
+Version: webpack 3.12.0
+Time: 1044ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.62 kB {0} [built]
+ [781] ./public/countries/188.geo.json 390 bytes {0} [optional] [built]
+    + 467 hidden modules
+Hash: 34e58252f27ae200d724
+Version: webpack 3.12.0
+Time: 945ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.27 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.64 kB {0} [built]
+ [782] ./public/countries/189.geo.json 456 bytes {0} [optional] [built]
+    + 468 hidden modules
+Hash: 6c58a86117146af6b75f
+Version: webpack 3.12.0
+Time: 965ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.28 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.66 kB {0} [built]
+ [783] ./public/countries/190.geo.json 464 bytes {0} [optional] [built]
+    + 469 hidden modules
+Hash: bd719074306ba39e019c
+Version: webpack 3.12.0
+Time: 915ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.28 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.68 kB {0} [built]
+ [784] ./public/countries/191.geo.json 749 bytes {0} [optional] [built]
+    + 470 hidden modules
+Hash: 9de9d9e56fcc78e7374c
+Version: webpack 3.12.0
+Time: 964ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.28 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.7 kB {0} [built]
+ [785] ./public/countries/192.geo.json 443 bytes {0} [optional] [built]
+    + 471 hidden modules
+Hash: 776247d0dd9b0e746962
+Version: webpack 3.12.0
+Time: 908ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.28 MB       0  [emitted]  [big]  main
+./public/bundle.js.map   2.7 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.72 kB {0} [built]
+ [786] ./public/countries/193.geo.json 901 bytes {0} [optional] [built]
+    + 472 hidden modules
+Hash: ff33c680b85af812ec2c
+Version: webpack 3.12.0
+Time: 927ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.28 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.71 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.74 kB {0} [built]
+ [787] ./public/countries/194.geo.json 904 bytes {0} [optional] [built]
+    + 473 hidden modules
+Hash: 97426ca4fa4d3709d827
+Version: webpack 3.12.0
+Time: 1020ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.28 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.71 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.74 kB {0} [built]
+    + 474 hidden modules
+nvaE ——> GET / 
+nvaE <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 1.0 ms)
+z16N ——> GET /bundle.js 
+AKQv ——> GET /style.css 
+AKQv <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 1.1 ms)
+z16N <—— 200 OK 2.17 MB application/javascript; charset=UTF-8 (<—> 118.8 ms)
+yymC ——> GET /bundle.js.map 
+yymC <—— 200 OK 2.58 MB application/json; charset=UTF-8 (<—> 59.3 ms)
+W8mV ——> GET /earth.jpg 
+W8mV <—— 200 OK 26.65 MB image/jpeg (<—> 3810.7 ms)
+NlgS ——> GET /favicon.ico 
+NlgS <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+joF8 ——> GET / 
+joF8 <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 1.3 ms)
+DCfQ ——> GET /style.css 
+XcuB ——> GET /bundle.js 
+DCfQ <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 1.9 ms)
+XcuB <—— 200 OK 2.17 MB application/javascript; charset=UTF-8 (<—> 117.8 ms)
+Ps8f ——> GET /bundle.js.map 
+Ps8f <—— 200 OK 2.58 MB application/json; charset=UTF-8 (<—> 59.3 ms)
+HRSg ——> GET /earth.jpg 
+HRSg <—— 200 OK 26.65 MB image/jpeg (<—> 3752.8 ms)
+jwLI ——> GET /favicon.ico 
+jwLI <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: 9185d64e0e22082fc57d
+Version: webpack 3.12.0
+Time: 1153ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.28 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.71 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.74 kB {0} [built]
+    + 474 hidden modules
+uuaD ——> GET / 
+uuaD <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.8 ms)
+NVNM ——> GET /style.css 
+1aRZ ——> GET /bundle.js 
+NVNM <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 1.3 ms)
+1aRZ <—— 200 OK 2.17 MB application/javascript; charset=UTF-8 (<—> 118.6 ms)
+xaFT ——> GET /bundle.js.map 
+xaFT <—— 200 OK 2.58 MB application/json; charset=UTF-8 (<—> 59.2 ms)
+B7fM ——> GET /earth.jpg 
+B7fM <—— 200 OK 26.65 MB image/jpeg (<—> 3762.0 ms)
+T7Lp ——> GET /favicon.ico 
+T7Lp <—— 200 OK 14.01 KB image/x-icon (<—> 1.0 ms)
+Hash: 93773b5129753808bff0
+Version: webpack 3.12.0
+Time: 1100ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.28 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.71 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 3.74 kB {0} [built]
+    + 474 hidden modules
+PqxU ——> GET / 
+PqxU <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.9 ms)
+IOeT ——> GET /bundle.js 
+mZnY ——> GET /style.css 
+mZnY <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 1.1 ms)
+IOeT <—— 200 OK 2.17 MB application/javascript; charset=UTF-8 (<—> 108.8 ms)
+Axp4 ——> GET /bundle.js.map 
+Axp4 <—— 200 OK 2.58 MB application/json; charset=UTF-8 (<—> 5.4 ms)
+UjLC ——> GET /earth.jpg 
+UjLC <—— 200 OK 26.65 MB image/jpeg (<—> 3870.6 ms)
+SulG ——> GET /favicon.ico 
+SulG <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 59a1b65482c6801793a5
+Version: webpack 3.12.0
+Time: 432ms
+                 Asset    Size  Chunks                    Chunk Names
+    ./public/bundle.js  745 kB       0  [emitted]  [big]  main
+./public/bundle.js.map  908 kB       0  [emitted]         main
+   188 modules
+
+ERROR in ./app/components/Root.jsx
+Module build failed: SyntaxError: Unexpected token, expected ) (182:22)
+
+  180 | function getCountry(lla){
+  181 | 	for(var i = 0; i < 194; i++)
+> 182 | 		if(isCorrect(lla,i) return countries[i].features[0].properties.name;
+      | 		                    ^
+  183 | }
+  184 | function isCorrect(lla, q){
+  185 | 	var cw = q > 177
+
+ @ ./app/main.jsx 9:12-40
+npOd ——> GET / 
+npOd <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.9 ms)
+bRb2 ——> GET /bundle.js 
+kIsm ——> GET /style.css 
+kIsm <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 1.1 ms)
+bRb2 <—— 200 OK 727.64 KB application/javascript; charset=UTF-8 (<—> 80.4 ms)
+2TAV ——> GET /bundle.js.map 
+2TAV <—— 200 OK 886.74 KB application/json; charset=UTF-8 (<—> 2.5 ms)
+1PqY ——> GET /favicon.ico 
+1PqY <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+Hash: da028f7df80de6f52418
+Version: webpack 3.12.0
+Time: 2533ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.33 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.77 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 4.93 kB {0} [built]
+ [833] ./public/countries/240.geo.json 566 bytes {0} [optional] [built]
+ [834] ./public/countries/241.geo.json 731 bytes {0} [optional] [built]
+ [835] ./public/countries/242.geo.json 698 bytes {0} [optional] [built]
+ [836] ./public/countries/243.geo.json 549 bytes {0} [optional] [built]
+ [837] ./public/countries/244.geo.json 543 bytes {0} [optional] [built]
+ [838] ./public/countries/245.geo.json 492 bytes {0} [optional] [built]
+ [839] ./public/countries/246.geo.json 651 bytes {0} [optional] [built]
+ [840] ./public/countries/247.geo.json 882 bytes {0} [optional] [built]
+ [841] ./public/countries/248.geo.json 835 bytes {0} [optional] [built]
+ [842] ./public/countries/249.geo.json 516 bytes {0} [optional] [built]
+ [843] ./public/countries/250.geo.json 490 bytes {0} [optional] [built]
+ [844] ./public/countries/251.geo.json 477 bytes {0} [optional] [built]
+ [845] ./public/countries/252.geo.json 553 bytes {0} [optional] [built]
+ [846] ./public/countries/253.geo.json 543 bytes {0} [optional] [built]
+    + 523 hidden modules
+
+WARNING in ./public/countries/257.geo.json
+Module build failed: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/countries ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+
+WARNING in ./public/countries/223.geo.json
+Module build failed: SyntaxError: Unexpected token 
+ in JSON at position 120
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/countries ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+V29C ——> GET / 
+V29C <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.8 ms)
+PL5Y ——> GET /style.css 
+Ec20 ——> GET /bundle.js 
+PL5Y <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 1.4 ms)
+Ec20 <—— 200 OK 2.22 MB application/javascript; charset=UTF-8 (<—> 117.9 ms)
+ZhPG ——> GET /bundle.js.map 
+ZhPG <—— 200 OK 2.64 MB application/json; charset=UTF-8 (<—> 7.5 ms)
+aQVK ——> GET /earth.jpg 
+aQVK <—— 200 OK 26.65 MB image/jpeg (<—> 5359.1 ms)
+cBZp ——> GET /favicon.ico 
+cBZp <—— 200 OK 14.01 KB image/x-icon (<—> 1.1 ms)
+Hash: 79c455ec94561ce9253c
+Version: webpack 3.12.0
+Time: 441ms
+                 Asset    Size  Chunks                    Chunk Names
+    ./public/bundle.js  745 kB       0  [emitted]  [big]  main
+./public/bundle.js.map  908 kB       0  [emitted]         main
+   188 modules
+
+ERROR in ./app/components/Root.jsx
+Module build failed: SyntaxError: Unexpected token (6:0)
+
+  4 | 
+  5 | var cntNum = 
+> 6 | var countries = {};
+    | ^
+  7 | for(var i = 1; i < 194; i++) countries[i-1] = require("../../public/countries/"+i+".geo.json");
+  8 | //for(var i = 1; i < 197; i++) countries[i-1] = require("../../public/geojson/"+i+".geo.json");
+  9 | 
+
+ @ ./app/main.jsx 9:12-40
+Hash: 5f3f86c18cbaffff392d
+Version: webpack 3.12.0
+Time: 2500ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.33 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.77 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 4.93 kB {0} [built]
+ [833] ./public/countries/240.geo.json 566 bytes {0} [optional] [built]
+ [834] ./public/countries/241.geo.json 731 bytes {0} [optional] [built]
+ [835] ./public/countries/242.geo.json 698 bytes {0} [optional] [built]
+ [836] ./public/countries/243.geo.json 549 bytes {0} [optional] [built]
+ [837] ./public/countries/244.geo.json 543 bytes {0} [optional] [built]
+ [838] ./public/countries/245.geo.json 492 bytes {0} [optional] [built]
+ [839] ./public/countries/246.geo.json 651 bytes {0} [optional] [built]
+ [840] ./public/countries/247.geo.json 882 bytes {0} [optional] [built]
+ [841] ./public/countries/248.geo.json 835 bytes {0} [optional] [built]
+ [842] ./public/countries/249.geo.json 516 bytes {0} [optional] [built]
+ [843] ./public/countries/250.geo.json 490 bytes {0} [optional] [built]
+ [844] ./public/countries/251.geo.json 477 bytes {0} [optional] [built]
+ [845] ./public/countries/252.geo.json 553 bytes {0} [optional] [built]
+ [846] ./public/countries/253.geo.json 543 bytes {0} [optional] [built]
+    + 523 hidden modules
+
+WARNING in ./public/countries/257.geo.json
+Module build failed: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/countries ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+
+WARNING in ./public/countries/223.geo.json
+Module build failed: SyntaxError: Unexpected token 
+ in JSON at position 120
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/countries ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+Hash: 1183c0d6ece26bf1501f
+Version: webpack 3.12.0
+Time: 1129ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.33 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.77 MB       0  [emitted]         main
+ [281] ./public/countries ^\.\/.*\.geo\.json$ 4.93 kB {0} [built]
+ [816] ./public/countries/223.geo.json 222 bytes {0} [optional] [built] [failed] [1 error]
+ [850] ./public/countries/257.geo.json 207 bytes {0} [optional] [built] [failed] [1 error]
+    + 535 hidden modules
+
+WARNING in ./public/countries/257.geo.json
+Module build failed: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/countries ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+
+WARNING in ./public/countries/223.geo.json
+Module build failed: SyntaxError: Unexpected token 
+ in JSON at position 120
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/countries ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+c0ee ——> GET / 
+c0ee <—— 200 OK 236 B text/html; charset=UTF-8 (<—> 0.8 ms)
+Dmfl ——> GET /bundle.js 
+ubur ——> GET /style.css 
+ubur <—— 200 OK 73 B text/css; charset=UTF-8 (<—> 1.1 ms)
+Dmfl <—— 200 OK 2.22 MB application/javascript; charset=UTF-8 (<—> 109.1 ms)
+Heu0 ——> GET /bundle.js.map 
+Heu0 <—— 200 OK 2.64 MB application/json; charset=UTF-8 (<—> 5.3 ms)
+iQVu ——> GET /favicon.ico 
+iQVu <—— 200 OK 14.01 KB image/x-icon (<—> 0.9 ms)
+
+> boilerplate@0.0.1 start /alexhontz/geography
+> webpack -w & node server/start.js
+
+server listening on 7500.
+
+Webpack is watching the files…
+
+Hash: 39567b066f9c970252f0
+Version: webpack 3.12.0
+Time: 4646ms
+                 Asset     Size  Chunks                    Chunk Names
+    ./public/bundle.js  2.33 MB       0  [emitted]  [big]  main
+./public/bundle.js.map  2.77 MB       0  [emitted]         main
+ [127] ./app/main.jsx 426 bytes {0} [built]
+ [280] ./public/countries ^\.\/.*\.geo\.json$ 4.93 kB {0} [built]
+ [521] ./public/countries/84.geo.json 421 bytes {0} [optional] [built]
+ [522] ./public/countries/85.geo.json 582 bytes {0} [optional] [built]
+ [523] ./public/countries/86.geo.json 1.66 kB {0} [optional] [built]
+ [524] ./public/countries/87.geo.json 2.6 kB {0} [optional] [built]
+ [525] ./public/countries/88.geo.json 883 bytes {0} [optional] [built]
+ [526] ./public/countries/89.geo.json 934 bytes {0} [optional] [built]
+ [527] ./public/countries/9.geo.json 5.92 kB {0} [optional] [built]
+ [528] ./public/countries/90.geo.json 555 bytes {0} [optional] [built]
+ [529] ./public/countries/91.geo.json 603 bytes {0} [optional] [built]
+ [530] ./public/countries/92.geo.json 364 bytes {0} [optional] [built]
+ [531] ./public/countries/93.geo.json 1.01 kB {0} [optional] [built]
+ [532] ./public/countries/94.geo.json 404 bytes {0} [optional] [built]
+ [533] ./public/countries/95.geo.json 738 bytes {0} [optional] [built]
+    + 523 hidden modules
+
+WARNING in ./public/countries/257.geo.json
+Module build failed: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/countries ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
+
+WARNING in ./public/countries/223.geo.json
+Module build failed: SyntaxError: Unexpected token 
+ in JSON at position 120
+    at JSON.parse (<anonymous>)
+    at Object.module.exports (/alexhontz/geography/node_modules/json-loader/index.js:4:49)
+ @ ./public/countries ^\.\/.*\.geo\.json$
+ @ ./app/components/Root.jsx
+ @ ./app/main.jsx
