@@ -1,3 +1,162 @@
+//The following is threeGeoJSON.js
+
+var x_values = [];
+var y_values = [];
+var z_values = [];
+
+function drawThreeGeo(json, radius, shape, options) {
+
+    var json_geom = createGeometryArray(json);    
+    var convertCoordinates = getConversionFunctionName(shape);    
+    
+    for (var geom_num = 0; geom_num < json_geom.length; geom_num++) {
+                
+        if (json_geom[geom_num].type == 'Point') {
+            convertCoordinates(json_geom[geom_num].coordinates, radius);            
+            drawParticle(y_values[0], z_values[0], x_values[0], options);
+            
+        } else if (json_geom[geom_num].type == 'MultiPoint') {
+            for (var point_num = 0; point_num < json_geom[geom_num].coordinates.length; point_num++) {
+                convertCoordinates(json_geom[geom_num].coordinates[point_num], radius);            
+                drawParticle(y_values[0], z_values[0], x_values[0], options);                
+            }
+            
+        } else if (json_geom[geom_num].type == 'LineString') {
+            
+            for (var point_num = 0; point_num < json_geom[geom_num].coordinates.length; point_num++) {
+                convertCoordinates(json_geom[geom_num].coordinates[point_num], radius);
+            }            
+            drawLine(y_values, z_values, x_values, options);
+            
+        } else if (json_geom[geom_num].type == 'Polygon') {
+            for (var segment_num = 0; segment_num < json_geom[geom_num].coordinates.length; segment_num++) {
+                for (var point_num = 0; point_num < json_geom[geom_num].coordinates[segment_num].length; point_num++) {
+                    convertCoordinates(json_geom[geom_num].coordinates[segment_num][point_num], radius); 
+                }                
+                drawLine(y_values, z_values, x_values, options);
+            }
+            
+        } else if (json_geom[geom_num].type == 'MultiLineString') {
+            for (var segment_num = 0; segment_num < json_geom[geom_num].coordinates.length; segment_num++) {
+                for (var point_num = 0; point_num < json_geom[geom_num].coordinates[segment_num].length; point_num++) {
+                    convertCoordinates(json_geom[geom_num].coordinates[segment_num][point_num], radius); 
+                }                
+                drawLine(y_values, z_values, x_values);                
+            }
+            
+        } else if (json_geom[geom_num].type == 'MultiPolygon') {
+            for (var polygon_num = 0; polygon_num < json_geom[geom_num].coordinates.length; polygon_num++) {
+                for (var segment_num = 0; segment_num < json_geom[geom_num].coordinates[polygon_num].length; segment_num++) {
+                    for (var point_num = 0; point_num < json_geom[geom_num].coordinates[polygon_num][segment_num].length; point_num++) {
+                        convertCoordinates(json_geom[geom_num].coordinates[polygon_num][segment_num][point_num], radius); 
+                    }                    
+                    drawLine(y_values, z_values, x_values, options);                    
+                }
+            }
+        } else {
+            throw new Error('The geoJSON is not valid.');
+        }        
+    }
+    
+}       
+
+function createGeometryArray(json) {
+    var geometry_array = [];
+    
+    if (json.type == 'Feature') {
+        geometry_array.push(json.geometry);        
+    } else if (json.type == 'FeatureCollection') {
+        for (var feature_num = 0; feature_num < json.features.length; feature_num++) { 
+            geometry_array.push(json.features[feature_num].geometry);            
+        }
+    } else if (json.type == 'GeometryCollection') {
+        for (var geom_num = 0; geom_num < json.geometries.length; geom_num++) { 
+            geometry_array.push(json.geometries[geom_num]);
+        }
+    } else {
+        throw new Error('The geoJSON is not valid.');
+    }    
+    //alert(geometry_array.length);
+    return geometry_array;
+}
+
+function getConversionFunctionName(shape) {
+    var conversionFunctionName;
+    
+    if (shape == 'sphere') {
+        conversionFunctionName = convertToSphereCoords;
+    } else if (shape == 'plane') {
+        conversionFunctionName = convertToPlaneCoords;
+    } else {
+        throw new Error('The shape that you specified is not valid.');
+    }
+    return conversionFunctionName;
+}
+
+
+function convertToSphereCoords(coordinates_array, sphere_radius) {
+    var lon = coordinates_array[0];
+    var lat = coordinates_array[1];
+
+    x_values.push(Math.cos(lat * Math.PI/180) * Math.cos(lon * Math.PI/180) * sphere_radius);
+    y_values.push(Math.cos(lat * Math.PI/180) * Math.sin(lon * Math.PI/180) * sphere_radius);
+    z_values.push(Math.sin(lat * Math.PI/180) * sphere_radius);    
+}
+
+function convertToPlaneCoords(coordinates_array, radius) {
+    var lon = coordinates_array[0];
+    var lat = coordinates_array[1];
+    var plane_offset = radius / 2;
+        
+    z_values.push((lat/180) * radius);
+    y_values.push((lon/180) * radius);
+    
+}
+
+function drawParticle(x, y, z, options) {
+    var particle_geom = new THREE.Geometry();
+    particle_geom.vertices.push(new THREE.Vector3(x, y, z));
+    
+    var particle_material = new THREE.ParticleSystemMaterial(options);
+    
+    var particle = new THREE.ParticleSystem(particle_geom, particle_material);
+    scene.add(particle);
+    
+    clearArrays();
+}
+
+function drawLine(x_values, y_values, z_values, options) {
+    var line_geom = new THREE.Geometry();
+    createVertexForEachPoint(line_geom, x_values, y_values, z_values);
+                
+    var line_material = new THREE.LineBasicMaterial(options);
+    var line = new THREE.Line(line_geom, line_material);
+    scene.add(line);
+    
+    clearArrays();
+}
+
+function createVertexForEachPoint(object_geometry, values_axis1, values_axis2, values_axis3) {
+    for (var i = 0; i < values_axis1.length; i++) {
+        object_geometry.vertices.push(new THREE.Vector3(values_axis1[i],
+                values_axis2[i], values_axis3[i]));
+    }
+}
+
+function clearArrays() {
+    x_values.length = 0;
+    y_values.length = 0;
+    z_values.length = 0;    
+}
+
+
+
+
+
+
+
+
+
 //import three.js
 const THREE = require('three');
 const d3 = require('d3-geo');
@@ -6,15 +165,15 @@ var hiRes = confirm("Press OK to use the high resolution maps, cancel for low-re
 
 alert("Using " + (hiRes?"high":"low") + " resolution maps. Remember to press space to toggle between the map types.");
 
-var countries = require("../../public/geojson/countries.geo.json");
+var countries = require("../../public/geojson/mountainranges.geo.json");
 var cities = require("../../public/geojson/cities.geo.json");
 
 var question = 0;
 var questionType = 0;
 setQuestion();
 function setQuestion(){
-	questionType = Math.random()*2 << 0;
-	question = Math.random()*((questionType == 0?countries:cities).features.length) << 0;
+	questionType = Math.random()<1;
+	question = Math.random()*((questionType?countries:cities).features.length) << 0;
 }
 
 alert("Click on: " + qName() + ".");
@@ -70,42 +229,33 @@ var visibility = 0;
 const globe = new THREE.Group();
 scene.add(globe);
 var loader = new THREE.TextureLoader();
-loader.load( hiRes?'earth.jpg':'mini_earth.jpg', function ( texture ) {
+loader.load( hiRes?'textures/earth.jpg':'textures/mini_earth.jpg', function ( texture ) {
 	var sphere = new THREE.SphereGeometry( RADIUS, SEGMENTS, RINGS );
 	var material = new THREE.MeshBasicMaterial( { map: texture, overdraw: 0.5 } );
 	var mesh = new THREE.Mesh( sphere, material );
 	globe.add(mesh);
 } );
-globe.rotation.y = Math.PI/2;
-globe.visible = false;
-
-const polglobe = new THREE.Group();
-scene.add(polglobe);
-var loader = new THREE.TextureLoader();
-loader.load( 'political.png', function ( texture ) {
-	var sphere = new THREE.SphereGeometry( RADIUS, SEGMENTS, RINGS );
-	var material = new THREE.MeshBasicMaterial( { map: texture, overdraw: 0.5 } );
-	var mesh = new THREE.Mesh( sphere, material );
-	polglobe.add(mesh);
-} );
-polglobe.rotation.y = Math.PI/2;
-polglobe.visible = false;
+globe.rotation.y = -Math.PI/2;
+globe.visible = true;
 
 const cityglobe = new THREE.Group();
 scene.add(cityglobe);
 var loader = new THREE.TextureLoader();
-loader.load( hiRes?'nightearth.gif':'mini_night.jpg', function ( texture ) {
+loader.load( hiRes?'textures/nightearth.gif':'textures/mini_night.jpg', function ( texture ) {
 	var sphere = new THREE.SphereGeometry( RADIUS, SEGMENTS, RINGS );
 	var material = new THREE.MeshBasicMaterial( { map: texture, overdraw: 0.5 } );
 	var mesh = new THREE.Mesh( sphere, material );
 	cityglobe.add(mesh);
 } );
-cityglobe.rotation.y = Math.PI/2;
-cityglobe.visible = true;
+cityglobe.rotation.y = -Math.PI/2;
+cityglobe.visible = false;
 
 
 
 
+drawThreeGeo(countries, 1.01, 'sphere', {
+	color: 'green'
+})
 
 
 
@@ -147,9 +297,8 @@ function checkKey(e) {
 	else if (e.keyCode == '39') ry-=0.2;
 	else if (e.keyCode == '32') {
 		visibility++;
-		globe.visible = visibility%3==0;
-		cityglobe.visible = visibility%3==1;
-		polglobe.visible = visibility%3==2;
+		globe.visible = visibility%2==0;
+		cityglobe.visible = visibility%2==1;
 	}
 }
 
@@ -192,20 +341,20 @@ document.addEventListener("click", function(e){
 	var point = intersects[0].point;
 	var x = point.x, y = point.y, z = point.z;
 
-	var lla = [-Math.atan2(x,-z)*180/Math.PI, Math.asin(y)*180/Math.PI];
+	var lla = [-Math.atan2(x,-z)*180/Math.PI+180, Math.asin(y)*180/Math.PI];
 	var corr = isCorrect(lla, question);
 	if(corr){
 		setQuestion();
 		alert("Correct! Now, click on: " + qName() + ".");
 	}
 	else{
-		var wrong = questionType == 0? getCountry(lla) : getCity(lla);
+		var wrong = questionType? getCountry(lla) : getCity(lla);
 		alert("No, that was " + wrong + ". Try again.");
 	}
 });
 
 function qName(){
-	return (questionType == 0?countries:cities).features[question].properties.name;
+	return (questionType?countries:cities).features[question].properties.name;
 }
 
 
@@ -229,7 +378,7 @@ function getCountry(lla){
 		if(isCorrect(lla,i)) return countries.features[i].properties.name;
 }
 function isCorrect(lla, q){
-	if(questionType==0){
+	if(questionType){
 		var cw = countries.features[q].properties.direction == "clockwise";//q > 176 && q < 481;
 		var contains = d3.geoContains(countries.features[q], lla);
 		return cw == contains;
