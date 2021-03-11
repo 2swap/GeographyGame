@@ -5,7 +5,6 @@ var y_values = [];
 var z_values = [];
 
 function drawThreeGeo(json, radius, shape, options) {
-
     var json_geom = createGeometryArray(json);    
     var convertCoordinates = getConversionFunctionName(shape);    
     
@@ -57,9 +56,7 @@ function drawThreeGeo(json, radius, shape, options) {
             throw new Error('The geoJSON is not valid.');
         }        
     }
-    
 }       
-
 function createGeometryArray(json) {
     var geometry_array = [];
     
@@ -79,7 +76,6 @@ function createGeometryArray(json) {
     //alert(geometry_array.length);
     return geometry_array;
 }
-
 function getConversionFunctionName(shape) {
     var conversionFunctionName;
     
@@ -102,7 +98,6 @@ function convertToSphereCoords(coordinates_array, sphere_radius) {
     y_values.push(Math.cos(lat * Math.PI/180) * Math.sin(lon * Math.PI/180) * sphere_radius);
     z_values.push(Math.sin(lat * Math.PI/180) * sphere_radius);    
 }
-
 function convertToPlaneCoords(coordinates_array, radius) {
     var lon = coordinates_array[0];
     var lat = coordinates_array[1];
@@ -110,7 +105,6 @@ function convertToPlaneCoords(coordinates_array, radius) {
         
     z_values.push((lat/180) * radius);
     y_values.push((lon/180) * radius);
-    
 }
 
 function drawParticle(x, y, z, options) {
@@ -124,7 +118,6 @@ function drawParticle(x, y, z, options) {
     
     clearArrays();
 }
-
 function drawLine(x_values, y_values, z_values, options) {
     var line_geom = new THREE.Geometry();
     createVertexForEachPoint(line_geom, x_values, y_values, z_values);
@@ -164,19 +157,6 @@ const d3 = require('d3-geo');
 var hiRes = confirm("Press OK to use the high resolution maps, cancel for low-resolution. (Warning: hi-res may crash your computer!)");
 
 alert("Using " + (hiRes?"high":"low") + " resolution maps. Remember to press space to toggle between the map types.");
-
-var countries = require("../../public/geojson/mountainranges.geo.json");
-var cities = require("../../public/geojson/cities.geo.json");
-
-var question = 0;
-var questionType = 0;
-setQuestion();
-function setQuestion(){
-	questionType = Math.random()<1;
-	question = Math.random()*((questionType?countries:cities).features.length) << 0;
-}
-
-alert("Click on: " + qName() + ".");
 
 //export stateless React component
 export default function Root() {
@@ -250,12 +230,49 @@ loader.load( hiRes?'textures/nightearth.gif':'textures/mini_night.jpg', function
 cityglobe.rotation.y = -Math.PI/2;
 cityglobe.visible = false;
 
+//Region files
+var regions = {
+	bodiesofwater : require("../../public/geojson/bodiesofwater.geo.json"),
+	canadianislands : require("../../public/geojson/canadianislands.geo.json"),
+	canary : require("../../public/geojson/canary.geo.json"),
+	countries : require("../../public/geojson/countries.geo.json"),
+	deserts : require("../../public/geojson/deserts.geo.json"),
+	disputed : require("../../public/geojson/disputed.geo.json"),
+	features : require("../../public/geojson/features.geo.json"),
+	hawaiianislands : require("../../public/geojson/hawaiianislands.geo.json"),
+	indonesianislands : require("../../public/geojson/indonesianislands.geo.json"),
+	islands : require("../../public/geojson/islands.geo.json"),
+	mountainranges : require("../../public/geojson/mountainranges.geo.json"),
+	peninsulas : require("../../public/geojson/peninsulas.geo.json"),
+	philippineislands : require("../../public/geojson/philippineislands.geo.json"),
+	rivers : require("../../public/geojson/rivers.geo.json"),
+	ukregions : require("../../public/geojson/ukregions.geo.json"),
+}
+var countries = 0;
+setCountries();
+//Point files
+var cities = require("../../public/geojson/cities.geo.json");
+
+function setCountries(){
+	var keys = Object.keys(regions);
+	var regionslen = keys.length;
+	var newKey = keys[Math.floor(Math.random()*regionslen)];
+	countries = regions[newKey];
+	while(scene.children.length > 2) scene.remove(scene.children[2]);
+	drawThreeGeo(countries, 1.0003, 'sphere', {color: 'red'});
+	console.log("Now playing " + newKey + "!");
+}
 
 
+var question = 0;
+var questionType = 0;
+setQuestion();
+function setQuestion(){
+	questionType = Math.random()<1;
+	question = Math.random()*((questionType?countries:cities).features.length) << 0;
+}
 
-drawThreeGeo(countries, 1.01, 'sphere', {
-	color: 'green'
-})
+alert("Click on: " + qName() + ".");
 
 
 
@@ -295,6 +312,7 @@ function checkKey(e) {
 	else if (e.keyCode == '40') rx-=0.2;
 	else if (e.keyCode == '37') ry+=0.2;
 	else if (e.keyCode == '39') ry-=0.2;
+	else if (e.keyCode == '13') setCountries();
 	else if (e.keyCode == '32') {
 		visibility++;
 		globe.visible = visibility%2==0;
