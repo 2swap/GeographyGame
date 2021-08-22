@@ -8,10 +8,12 @@ var z_values = [];
 
 function drawThreeGeo(json, radius, shape) {
     var json_geom = createGeometryArray(json);    
-    var convertCoordinates = getConversionFunctionName(shape);    
+    var convertCoordinates = getConversionFunctionName(shape);
     
     for (var geom_num = 0; geom_num < json_geom.length; geom_num++) {
-                
+        let col = getRainbowColor(geom_num);
+        if (new Date().getTime() / 500 % 2 == 1 && geom_num == question && guesses > 3) col = "white";
+
         if (json_geom[geom_num].type == 'Point') {
             convertCoordinates(json_geom[geom_num].coordinates, radius);            
             drawParticle(y_values[0], z_values[0], x_values[0]);
@@ -27,14 +29,14 @@ function drawThreeGeo(json, radius, shape) {
             for (var point_num = 0; point_num < json_geom[geom_num].coordinates.length; point_num++) {
                 convertCoordinates(json_geom[geom_num].coordinates[point_num], radius);
             }            
-            drawLine(y_values, z_values, x_values);
+            drawLine(y_values, z_values, x_values, col);
             
         } else if (json_geom[geom_num].type == 'Polygon') {
             for (var segment_num = 0; segment_num < json_geom[geom_num].coordinates.length; segment_num++) {
                 for (var point_num = 0; point_num < json_geom[geom_num].coordinates[segment_num].length; point_num++) {
                     convertCoordinates(json_geom[geom_num].coordinates[segment_num][point_num], radius); 
                 }                
-                drawLine(y_values, z_values, x_values);
+                drawLine(y_values, z_values, x_values, col);
             }
             
         } else if (json_geom[geom_num].type == 'MultiLineString') {
@@ -42,7 +44,7 @@ function drawThreeGeo(json, radius, shape) {
                 for (var point_num = 0; point_num < json_geom[geom_num].coordinates[segment_num].length; point_num++) {
                     convertCoordinates(json_geom[geom_num].coordinates[segment_num][point_num], radius); 
                 }                
-                drawLine(y_values, z_values, x_values);                
+                drawLine(y_values, z_values, x_values, col);                
             }
             
         } else if (json_geom[geom_num].type == 'MultiPolygon') {
@@ -51,7 +53,7 @@ function drawThreeGeo(json, radius, shape) {
                     for (var point_num = 0; point_num < json_geom[geom_num].coordinates[polygon_num][segment_num].length; point_num++) {
                         convertCoordinates(json_geom[geom_num].coordinates[polygon_num][segment_num][point_num], radius); 
                     }                    
-                    drawLine(y_values, z_values, x_values);                    
+                    drawLine(y_values, z_values, x_values, col);                    
                 }
             }
         } else {
@@ -61,7 +63,7 @@ function drawThreeGeo(json, radius, shape) {
 }       
 function createGeometryArray(json) {
     var geometry_array = [];
-    
+
     if (json.type == 'Feature') {
         geometry_array.push(json.geometry);        
     } else if (json.type == 'FeatureCollection') {
@@ -120,11 +122,11 @@ function drawParticle(x, y, z) {
     
     clearArrays();
 }
-function drawLine(x_values, y_values, z_values) {
+function drawLine(x_values, y_values, z_values, col) {
     var line_geom = new THREE.Geometry();
     createVertexForEachPoint(line_geom, x_values, y_values, z_values);
                 
-    var line_material = new THREE.LineBasicMaterial({color:"red"});
+    var line_material = new THREE.LineBasicMaterial({color:"red", linewidth:1});
     var line = new THREE.Line(line_geom, line_material);
     scene.add(line);
     
@@ -143,6 +145,14 @@ function clearArrays() {
     y_values.length = 0;
     z_values.length = 0;    
 }
+
+const getRainbowColor = (t) => {
+	t *= 107.29937
+    const r = Math.floor(16 * Math.sqrt(Math.sin(t) * 128 + 128));
+    const g = Math.floor(16 * Math.sqrt(Math.sin(t + Math.PI * 2 / 3) * 128 + 128));
+    const b = Math.floor(16 * Math.sqrt(Math.sin(t + Math.PI * 4 / 3) * 128 + 128));
+    return `rgba(${r}, ${g}, ${b}, 1)`;
+};
 
 
 
@@ -233,82 +243,84 @@ globe.rotation.y = -Math.PI/2;
 globe.visible = true;
 
 //Region files
-var poly = {
-	antarctic_claims : require("../../public/geojson/poly/antarctic_claims.geo.json"),
-	bodies_of_water : require("../../public/geojson/poly/bodies_of_water.geo.json"),
-	brazil : require("../../public/geojson/poly/brazil.geo.json"),
-	canada : require("../../public/geojson/poly/canada.geo.json"),
-	canadian_islands : require("../../public/geojson/poly/canadian_islands.geo.json"),
-	canary : require("../../public/geojson/poly/canary.geo.json"),
-	china : require("../../public/geojson/poly/china.geo.json"),
-	continents : require("../../public/geojson/poly/continents.geo.json"),
-	countries : require("../../public/geojson/poly/countries.geo.json"),
-	deserts : require("../../public/geojson/poly/deserts.geo.json"),
-	disputed_areas : require("../../public/geojson/poly/disputed_areas.geo.json"),
-	disputed : require("../../public/geojson/poly/disputed.geo.json"),
-	egypt : require("../../public/geojson/poly/egypt.geo.json"),
-	features : require("../../public/geojson/poly/features.geo.json"),
-	hawaiianislands : require("../../public/geojson/poly/hawaiianislands.geo.json"),
-	india : require("../../public/geojson/poly/india.geo.json"),
-	indonesianislands : require("../../public/geojson/poly/indonesianislands.geo.json"),
-	islands : require("../../public/geojson/poly/islands.geo.json"),
-	japan : require("../../public/geojson/poly/japan.geo.json"),
-	malaysia : require("../../public/geojson/poly/malaysia.geo.json"),
-	marine_polys : require("../../public/geojson/poly/marine_polys.geo.json"),
-	mexico : require("../../public/geojson/poly/mexico.geo.json"),
-	minor_islands : require("../../public/geojson/poly/minor_islands.geo.json"),
-	more_breakaway : require("../../public/geojson/poly/more_breakaway.geo.json"),
-	more_populated : require("../../public/geojson/poly/more_populated.geo.json"),
-	mountainranges : require("../../public/geojson/poly/mountainranges.geo.json"),
-	nigeria : require("../../public/geojson/poly/nigeria.geo.json"),
-	pakistan2 : require("../../public/geojson/poly/pakistan2.geo.json"),
-	pakistan : require("../../public/geojson/poly/pakistan.geo.json"),
-	parks_and_protected_lands : require("../../public/geojson/poly/parks_and_protected_lands.geo.json"),
-	Peaks_Troughs : require("../../public/geojson/poly/Peaks_Troughs.geo.json"),
-	peninsulas : require("../../public/geojson/poly/peninsulas.geo.json"),
-	philippineislands : require("../../public/geojson/poly/philippineislands.geo.json"),
-	philippines : require("../../public/geojson/poly/philippines.geo.json"),
-	points_of_interest : require("../../public/geojson/poly/points_of_interest.geo.json"),
-	populated_places_simple : require("../../public/geojson/poly/populated_places_simple.geo.json"),
-	regions : require("../../public/geojson/poly/regions.geo.json"),
-	rivers : require("../../public/geojson/poly/rivers.geo.json"),
-	russia : require("../../public/geojson/poly/russia.geo.json"),
-	south_africa : require("../../public/geojson/poly/south_africa.geo.json"),
-	spain : require("../../public/geojson/poly/spain.geo.json"),
-	ukcounties : require("../../public/geojson/poly/ukcounties.geo.json"),
-	ukregions : require("../../public/geojson/poly/ukregions.geo.json"),
-	usacounties : require("../../public/geojson/poly/usacounties.geo.json"),
-	usa : require("../../public/geojson/poly/usa.geo.json"),
-}
-var polyCW = {
-	china: true,
-}
-//Point files
-var point = {
-	cities: require("../../public/geojson/point/cities.geo.json"),
-	elevpoints: require("../../public/geojson/point/elevpoints.geo.json"),
+var filenames = [
+"Malaysia",
+"Cities",
+"Elevation Points",
+"More Populated",
+"Points of Interest",
+"Populated Places Simple",
+
+"Bodies of Water",
+"Brazil",
+"Canada",
+"Canadian Islands",
+"Chile",
+"China",
+"Continents",
+"Countries",
+"Deserts",
+"Disputed Areas",
+"Egypt",
+"Germany",
+"Hawaii",
+"Highlands",
+"India",
+"Indonesian Islands",
+"Islands",
+"Japan",
+"Mexico",
+"Mountain Ranges",
+"Nigeria",
+"North American Lakes",
+"Oceans",
+"Overseas Territories",
+"Parks and Protected Lands",
+"Pakistan",
+"Peninsulas",
+"Philippine Islands",
+"Philippines",
+"Regions",
+"Rivers",
+//"Russia",
+"South Africa",
+"Spain",
+"UK Counties",
+"UK Regions",
+"USA Counties",
+"USA States",
+];
+
+var geojsons = {};
+for(var i = 0; i < filenames.length; i++){
+	geojsons[filenames[i]] = require("../../public/geojson/" + filenames[i] + ".geo.json");
 }
 
-var countries = 0;
-var question = 0;
-var gameType = 0;
-var newKey = 0;
+let countries = 0;
+let question = 0;
+let gameType = 0;
+let newKey = 0;
+let guesses = 1;
+const CITIES = 0;
+const COUNTRIES = 1;
 
 function setQuestion(){
 	question = Math.random()*(countries.features.length) << 0;
+	guesses = 0
 }
 function setCountries(){
-	gameType = Math.random() < .5;
-	var keys = Object.keys(gameType ? poly : point);
-	var regionslen = keys.length;
-	newKey = keys[Math.floor(Math.random()*regionslen)];
-	countries = gameType ? poly[newKey] : point[newKey];
+	newKey = filenames[Math.floor(Math.random()*filenames.length)];
+	console.log(newKey);
+	countries = geojsons[newKey];
+	gameType = countries.features[0].geometry.type === "Point"? CITIES : COUNTRIES;
 	while(scene.children.length > 3) scene.remove(scene.children[3]);
-	drawThreeGeo(countries, 1.0005, 'sphere');
-	if(!gameType)
-		drawThreeGeo(poly["countries"], 1.0005, 'sphere');
+	drawThreeGeo(countries, 1.0002, 'sphere');
+	if(gameType == CITIES)
+		drawThreeGeo(geojsons["Countries"], 1.0005, 'sphere');
 	setQuestion();
-	alert("Now playing " + newKey + "! Click on: " + qName() + ".");
+	var text = "Now playing " + newKey + "! Click on: " + qName() + ".";
+	alert(text);
+	console.log(text);
 }
 setCountries();
 
@@ -407,8 +419,11 @@ document.addEventListener("click", function(e){
 		alert("Correct! Now, click on: " + qName() + ".");
 	}
 	else{
-		var wrong = gameType? getCountry(lla) : getCity(lla);
-		alert("No, that was " + wrong + ". Try again.");
+		const wrong = gameType == COUNTRIES? getCountry(lla) : getPoint(lla);
+		const text = "No, that was " + wrong + ". Try again.";
+		alert(text);
+		console.log(text);
+		guesses++;
 	}
 });
 
@@ -420,7 +435,7 @@ function qName(){
 
 
 
-function getCity(lla){
+function getPoint(lla){
 	var bestDist = 1000000000;
 	var bestI = 0;
 	for(var i in countries.features){
@@ -430,22 +445,24 @@ function getCity(lla){
 			bestI = i;
 		}
 	}
-	return bestDist < .005 ? countries.features[bestI].properties.name : ("not a listed city (dist: " +d3.geoDistance(lla, countries.features[question].geometry.coordinates) * 50 + "%)");
+	return bestDist < .005 ? countries.features[bestI].properties.name : ("not a listed point (dist: " +d3.geoDistance(lla, countries.features[question].geometry.coordinates) * 50 + "%)");
 }
 function getCountry(lla){
 	for(var i = 0; i < countries.features.length; i++)
 		if(isCorrect(lla,i)) return countries.features[i].properties.name;
 }
 function isCorrect(lla, q){
-	if(gameType){
-		var cw = area(countries.features[q].geometry.coordinates[0])>0;
+	if(gameType == COUNTRIES){
+		var cw = countries.features[q].properties["direction"] === "counterclockwise";
+		if(countries["chirality"] === "flip")
+			cw = !cw;
 		var contains = d3.geoContains(countries.features[q], lla);
-		return cw == contains;
+		return cw != contains;
 	}else{
-		return getCity(lla) == countries.features[q].properties.name;
+		return getPoint(lla) == countries.features[q].properties.name;
 	}
 }
-function area(polygon) {
+function getArea(polygon) {
   var i = -1,
       n = polygon.length,
       a,
