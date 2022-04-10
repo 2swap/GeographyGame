@@ -244,6 +244,7 @@ globe.visible = true;
 
 //Region files
 var filenames = [
+"My Cities",
 "Malaysia",
 "Cities",
 "Elevation Points",
