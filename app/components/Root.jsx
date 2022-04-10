@@ -218,29 +218,23 @@ const RINGS = 50;
 
 var visibility = 0;
 
-let cityglobe = new THREE.Group();
-scene.add(cityglobe);
-let loader = new THREE.TextureLoader();
-loader.load( hiRes?'textures/nightearth.gif':'textures/mini_night.jpg', function ( texture ) {
-	var sphere = new THREE.SphereGeometry( RADIUS, SEGMENTS, RINGS );
-	var material = new THREE.MeshBasicMaterial( { map: texture, overdraw: 0.5 } );
-	var mesh = new THREE.Mesh( sphere, material );
-	cityglobe.add(mesh);
-} );
-cityglobe.rotation.y = -Math.PI/2;
-cityglobe.visible = false;
+var globes = {};
+var globeImages = [hiRes?'nightearth.gif':'mini_night.jpg', hiRes?'earth.jpg':'mini_earth.jpg', 'political.png', 'coastline.jpg'];
 
-let globe = new THREE.Group();
-scene.add(globe);
-loader = new THREE.TextureLoader();
-loader.load( hiRes?'textures/earth.jpg':'textures/mini_earth.jpg', function ( texture ) {
-	var sphere = new THREE.SphereGeometry( RADIUS, SEGMENTS, RINGS );
-	var material = new THREE.MeshBasicMaterial( { map: texture, overdraw: 0.5 } );
-	var mesh = new THREE.Mesh( sphere, material );
-	globe.add(mesh);
-} );
-globe.rotation.y = -Math.PI/2;
-globe.visible = true;
+for(var x = 0; x < globeImages.length; x++){
+	globes[x] = new THREE.Group();
+	scene.add(globes[x]);
+	let loader = new THREE.TextureLoader();
+	loader.load('textures/'+globeImages[x], function(x){ return function ( texture ) {
+		var sphere = new THREE.SphereGeometry( RADIUS, SEGMENTS, RINGS );
+		var material = new THREE.MeshBasicMaterial( { map: texture, overdraw: 0.5 } );
+		var mesh = new THREE.Mesh( sphere, material );
+		console.log([x, mesh])
+		globes[x].add(mesh);
+	} }(x));
+	globes[x].rotation.y = -Math.PI/2;
+	globes[x].visible = x == visibility;
+}
 
 //Region files
 var filenames = [
@@ -314,7 +308,7 @@ function setCountries(){
 	console.log(newKey);
 	countries = geojsons[newKey];
 	gameType = countries.features[0].geometry.type === "Point"? CITIES : COUNTRIES;
-	while(scene.children.length > 3) scene.remove(scene.children[3]);
+	while(scene.children.length > globeImages.length + 1) scene.remove(scene.children[globeImages.length + 1]);
 	drawThreeGeo(countries, 1.0002, 'sphere');
 	if(gameType == CITIES)
 		drawThreeGeo(geojsons["Countries"], 1.0005, 'sphere');
@@ -337,7 +331,7 @@ setInterval(function(){
 	camera.position.x = approach(camera.position.x, dist*Math.cos(rx)*Math.sin(ry));
 	camera.position.y = approach(camera.position.y, dist*Math.sin(rx));
 	camera.position.z = approach(camera.position.z,-dist*Math.cos(rx)*Math.cos(ry));
-	camera.lookAt(globe.position);
+	camera.lookAt(globes[visibility].position);
 	renderer.render(scene, camera);
 	if(loaded) document.getElementById("q").innerHTML = qName();
 },20);
@@ -365,9 +359,10 @@ function checkKey(e) {
 	else if (e.keyCode == '39') ry-=0.2;
 	else if (e.keyCode == '13') setCountries();
 	else if (e.keyCode == '32') { // space
-		visibility++;
-		globe.visible = visibility%2==0;
-		cityglobe.visible = visibility%2==1;
+		globes[visibility].visible = false;
+		visibility = (visibility + 1) % globeImages.length;
+		console.log(visibility);
+		globes[visibility].visible = true;
 	}
 }
 
@@ -406,7 +401,7 @@ document.addEventListener("click", function(e){
 	raycaster.setFromCamera( mouse, camera );
 	
 	//find point of intersection
-	var intersects = raycaster.intersectObjects( globe.children );
+	var intersects = raycaster.intersectObjects( globes[visibility].children );
 	if(typeof intersects[0] === "undefined"){
 		return;
 	}

@@ -1,6 +1,6 @@
 html, body, #container{
 	margin:0;
 	padding:0;
-	width:95%;
-	height:95%
+	overflow: hidden; /* Hide scrollbars */
+	background-color: black;
 }

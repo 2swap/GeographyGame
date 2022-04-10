@@ -13,4 +13,6 @@ module.exports = app
 .use(express.static(resolve(__dirname, '..', 'public')))
 .get('/*',(_, res) =>res.sendFile(resolve(__dirname, '..', 'public', 'index.html')))
 
-app.listen(7500, () => console.log('server listening on 7500.'));
+var port = 10002;
+
+app.listen(port, () => console.log('server listening on ' + port + '.'));
